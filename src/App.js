@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Navbar from './component/navbar';
+import Home from './component/home'
+import About from './component/about'
+import CaseStudy from './component/casestudy';
+import Metodology from './component/metodology';
+
+import { ThemeProvider, CssBaseline, Container, AppBar, Toolbar, Typography, Box } from '@mui/material';
+import logo from './logo.png';
+import theme from './theme'; // Import the theme you created
 import './App.css';
+import './fonts.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Box sx={{ display: 'flex', minHeight: '100vh' }}>
+          <AppBar position="static" elevation={0} sx={{ width: '50px', backgroundColor: theme.palette.primary.main, justifyContent: 'flex-end', display: 'flex', flexDirection: 'column',  borderRight: `1.5px solid ${theme.palette.primary.light}`}}>
+            {/* Left box */}
+          </AppBar>
+          <Box sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+            <Navbar />
+            <Container maxWidth="xl" sx={{ display: 'flex', flexDirection: 'column', flex: 1, backgroundColor: theme.palette.primary.main}}>
+              {/* Routes content */}
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/casestudy" element={<CaseStudy />} />
+                <Route path="/metodology" element={<Metodology />} />
+              </Routes>
+            </Container>
+          </Box>
+        </Box>
+      </Router>
+    </ThemeProvider>
   );
 }
 
