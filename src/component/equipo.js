@@ -21,12 +21,12 @@ function Equipo() {
     <Container maxWidth="xl" style={{ display: 'flex', flexWrap: 'wrap' }}>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: theme.spacing(4)}}>
         {teamMembers.map((member, index) => (
-          <div key={index} style={{ textAlign: 'center' }}>
+          <div key={index} style={{ textAlign: 'left' }}>
             <div style={{ width: '150px', height: '150px', overflow: 'hidden', margin: '0 auto' }}>
               <img src={member.image} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
-            <Typography variant="h6" sx={{textAlign:'left', paddingTop: theme.spacing(3), lineHeight: theme.spacing(2)}}>{member.name}</Typography>
-            <Typography variant="body2" color="textSecondary" sx={{textAlign:'left'}}>{member.position}</Typography>
+            <Typography variant="h6" sx={{paddingTop: theme.spacing(3), lineHeight: theme.spacing(2)}}>{member.name}</Typography>
+            <Typography variant="body2" color="textSecondary">{member.position}</Typography>
           </div>
         ))}
       </div>
