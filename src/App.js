@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './component/navbar';
 import Home from './component/home'
 import About from './component/about'
+import Equipo from './component/equipo';
 import CaseStudy from './component/casestudy';
 import Metodology from './component/metodology';
 
@@ -23,11 +24,12 @@ function App() {
           </AppBar>
           <Box sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
             <Navbar />
-            <Container maxWidth="xl" sx={{ display: 'flex', flexDirection: 'column', flex: 1, backgroundColor: theme.palette.primary.main}}>
+            <Container maxWidth="xl" sx={{ display: 'flex', flexDirection: 'column', flex: 1, backgroundColor: theme.palette.primary.main, paddingTop: theme.spacing(4)}}>
               {/* Routes content */}
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/equipo" element={<Equipo />} />
                 <Route path="/casestudy" element={<CaseStudy />} />
                 <Route path="/metodology" element={<Metodology />} />
               </Routes>

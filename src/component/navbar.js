@@ -6,20 +6,21 @@ import theme from '../theme';
 
 const headerItems = [
   { label: 'Del Proyecto', href: '/about' },
-  { label: 'Caso de Estudio', href: '/casestudy' },
+  { label: 'Equipo', href: '/equipo' },
   { label: 'Metodología', href: '/metodology' },
+  { label: 'Caso de Estudio', href: '/casestudy' },
+
 ];
 
 function Navbar() {
   return (
-    <AppBar position="sticky" elevation={0} sx={{borderBottom: `1.5px solid ${theme.palette.primary.light}`}}>
+    <AppBar position="sticky" elevation={0} sx={{ borderBottom: `1.5px solid ${theme.palette.primary.light}` }}>
       <Toolbar
         sx={{
           display: 'flex',
           justifyContent: 'space-between',
           padding: 0,
           margin: 0,
-         
         }}
       >
         <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
@@ -29,9 +30,12 @@ function Navbar() {
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', flexShrink: 1, padding: theme.spacing(1) }}>    
           {headerItems.map((d, i) => (
-            <Link key={i} to={d.href} style={{ textDecoration: 'none' }}>
-              <Typography variant="h6" sx={{ ml: theme.spacing(2) }}>{d.label}</Typography>
-            </Link>
+            <React.Fragment key={i}>
+              <Link to={d.href} style={{ textDecoration: 'none' }}>
+                <Typography variant="h6" sx={{ ml: theme.spacing(2) }}>{d.label}</Typography>
+              </Link>
+              {i < headerItems.length - 1 && <Typography variant="h6" sx={{ mx: theme.spacing(1) }}>//</Typography>}
+            </React.Fragment>
           ))}
         </Box>
 
