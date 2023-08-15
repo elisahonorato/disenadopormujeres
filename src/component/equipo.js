@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Typography } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import miembro1 from '../assets/images/equipo/miembro1.jpg';
 import miembro2 from '../assets/images/equipo/miembro2.jpg';
 import theme from '../theme';
+import ColorStain from './colorstain';
+import zIndex from '@mui/material/styles/zIndex';
 // Importa todas las imágenes del equipo aquí
 
 const teamMembers = [
@@ -19,17 +21,22 @@ const teamMembers = [
 function Equipo() {
   return (
     <Container maxWidth="xl" style={{ display: 'flex', flexWrap: 'wrap' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: theme.spacing(4)}}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: theme.spacing(4), zIndex:'1'}}>
         {teamMembers.map((member, index) => (
           <div key={index} style={{ textAlign: 'left' }}>
             <div style={{ width: '150px', height: '150px', overflow: 'hidden', margin: '0 auto' }}>
               <img src={member.image} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
-            <Typography variant="h6" sx={{paddingTop: theme.spacing(3), lineHeight: theme.spacing(2)}}>{member.name}</Typography>
-            <Typography variant="body2" color="textSecondary">{member.position}</Typography>
+            <Typography variant="h4" sx={{paddingTop: theme.spacing(3), lineHeight: theme.spacing(2)}}>{member.name}</Typography>
+            <Typography variant="h4" color="textSecondary">{member.position}</Typography>
           </div>
         ))}
+        
       </div>
+      
+
+
+
     </Container>
   );
 }

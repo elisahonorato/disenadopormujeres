@@ -14,8 +14,15 @@ const theme = createTheme({
   },
   typography: {
     h1: {
-        fontFamily: 'monospace'
+        fontFamily: 'ChronicleTextG2-Semibd-Pro, serif',
+        fontSize: '4rem',
         
+    },
+    h4: {
+        fontFamily: 'UniversLTStd-Cn, Arial, sans-serif',
+        fontSize: '1rem',
+        fontWeight: 400,
+        lineHeight: 1.5,
     },
     h6: {
         fontFamily: 'UniversLTStd-Bold, Arial, sans-serif',
@@ -25,6 +32,7 @@ const theme = createTheme({
         textDecoration: 'none !important',
         color: '#000000',
     }
+
 
   },
 

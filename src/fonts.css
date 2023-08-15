@@ -3,4 +3,14 @@
     font-family: 'UniversLTStd-Bold';
     src: url('../public/fonts/Univers/UniversLTStd-Bold.otf') format('opentype');
   }
+
+  @font-face {
+    font-family: 'UniversLTStd-Cn';
+    src: url('../public/fonts/Univers/UniversLTStd-Cn.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'ChronicleTextG2-Semibd-Pro';
+    src: url('../public/fonts/Chronicle/ChronicleTextG2-Semibd-Pro.otf') format('opentype');
+  }
   
