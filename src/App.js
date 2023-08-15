@@ -23,13 +23,13 @@ function App() {
       <CssBaseline />
       <Router>
         <Box sx={{ display: 'flex', minHeight: '100vh' }}>
-        <ColorStain color={purple[600]} size={'300px'} marginTop={'100px'} marginLeft={'calc(50% + 200px)'} zIndex={10000}/>
+        <ColorStain color={purple[600]} size={'300px'} marginTop={'90px'} marginLeft={'calc(50% + 200px)'} zIndex={10000}/>
           <AppBar position="static" elevation={0} sx={{ width: '50px', backgroundColor: theme.palette.primary.main, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderRight: `1.5px solid ${theme.palette.primary.light}` }}>
             <Grid container direction="column" justifyContent="flex-start" alignItems="center" height="100%">
-              <Grid item>
-                <img src={icono2} alt="icono" style={{ width: '40px', height: '40px', padding: '10px', opacity: '50%', marginTop: theme.spacing(2)}} />
+              <Grid item sx={{position:'fixed'}}>
+                <img src={icono2} alt="icono" style={{ width: '40px', height: '40px', padding: '10px', opacity: '50%', marginTop: theme.spacing(2), alignItems: 'center'}} />
               </Grid>
-              <Grid item sx={{  flexGrow: '1', display: 'flex', alignItems: 'center' }}>
+              <Grid item sx={{  flexGrow: '2', display: 'flex', alignItems: 'center', position:'fixed', position:'middle' }}>
                 <img src={icono1} alt="icono" style={{ width: '40px', height: '40px', padding: '10px', opacity: '50%' }} />
               </Grid>
             </Grid>

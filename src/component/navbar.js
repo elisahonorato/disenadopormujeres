@@ -23,9 +23,9 @@ function Navbar() {
           margin: 0,
         }}
       >
-        <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1, padding: theme.spacing(1) }}>
             <Link to="/" className="logo-link">
-                <img src={logo} alt="Logo" style={{ maxWidth: '200px' }} />
+                <img src={logo} alt="Logo" style={{ maxWidth: '300px' }} />
             </Link>
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', flexShrink: 1, padding: theme.spacing(1) }}>    
