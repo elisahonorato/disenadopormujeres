@@ -34,7 +34,7 @@ function Navbar({ borderStyle }) {
               <Link to={d.href} style={{ textDecoration: 'none' }}>
                 <Typography variant="h6" sx={{ ml: theme.spacing(2) }}>{d.label}</Typography>
               </Link>
-              {i < headerItems.length - 1 && <Typography variant="h6" sx={{ mx: theme.spacing(1) }}>//</Typography>}
+              {i < headerItems.length - 1 && <Typography variant="h6" sx={{ mx: theme.spacing(1) }}>{'//'}</Typography>}
             </React.Fragment>
           ))}
         </Box>

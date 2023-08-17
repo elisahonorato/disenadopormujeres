@@ -7,8 +7,8 @@ import Equipo from './component/equipo';
 import CaseStudy from './component/casestudy';
 import Metodology from './component/metodology';
 
-import { ThemeProvider, CssBaseline, Container, Box, Grid } from '@mui/material';
-import logo from './logo.png';
+import { ThemeProvider, CssBaseline, Container, Box } from '@mui/material';
+
 import theme from './theme'; // Import the theme you created
 import './App.css';
 import './fonts.css'
@@ -17,6 +17,7 @@ import { purple } from '@mui/material/colors';
 import ColorStain from './component/colorstain';
 
 function App() {
+  console.log("app")
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
-import aboutImage from '../assets/images/equipo/miembro1.jpg';
+
 function Metodology() {
   return (
     <Container maxWidth="xl" style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh' }}>
