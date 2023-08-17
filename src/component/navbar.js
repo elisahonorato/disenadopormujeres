@@ -12,9 +12,9 @@ const headerItems = [
 
 ];
 
-function Navbar() {
+function Navbar({ borderStyle }) {
   return (
-    <AppBar position="sticky" elevation={0} sx={{ borderBottom: `1.5px solid ${theme.palette.primary.light}` }}>
+    <AppBar position="sticky" elevation={0} sx={{ borderBottom: borderStyle}}>
       <Toolbar
         sx={{
           display: 'flex',
