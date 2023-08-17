@@ -9,7 +9,7 @@ function Metodology() {
         {/* Text */}
         <Grid item xs={12} md={6}>
           <Typography variant="h1" gutterBottom>
-            Metodology
+            Metodología
           </Typography>
         </Grid>
 
