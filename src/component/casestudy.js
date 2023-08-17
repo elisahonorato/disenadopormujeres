@@ -3,7 +3,7 @@ import { Container, Typography, Grid } from '@mui/material';
 import miembro1 from '../assets/images/equipo/miembro1.jpg';
 import miembro2 from '../assets/images/equipo/miembro2.jpg';
 import theme from '../theme';
-import ColorStain from './colorstain';
+
 
 const teamMembers = [
   { image: miembro1, name: 'Miembro 1', position: 'Cargo 1' },
