@@ -6,6 +6,7 @@ import About from './component/about';
 import Equipo from './component/equipo';
 import CaseStudy from './component/casestudy';
 import Metodology from './component/metodology';
+import Contact from './component/contact'
 import VerticalNavbar from './component/verticalnavbar';
 import ColorStain from './component/colorstain';
 import { ThemeProvider, CssBaseline, Container, Box } from '@mui/material';
@@ -50,6 +51,7 @@ function App() {
                 <Route path="/equipo" element={<Equipo />} />
                 <Route path="/casestudy" element={<CaseStudy />} />
                 <Route path="/metodology" element={<Metodology />} />
+                <Route path="/contact" element={<Contact />} />
               </Routes>
             </Container>
           </Box>

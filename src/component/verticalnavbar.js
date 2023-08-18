@@ -11,13 +11,13 @@ function VerticalNavbar({ navbarSize }) {
       <Grid container direction="column" justifyContent="space-between" alignItems="center" sx={{ height: '100%' }}>
         <Grid item sx={{ position: 'fixed', width: navbarSize, height: navbarSize }}>
           <Link to="/about" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={icono2} alt="icono1" style={{ width: '100%', height: 'auto', opacity: 0.4 , padding: '30%', alignItems: 'center'}} />
+            <img src={icono2} alt="icono1" style={{ width: '100%', height: 'auto', opacity: 0.4 , padding: '35%', alignItems: 'center'}} />
           </Link>
         </Grid>
         <Grid item sx={{ flexGrow: '1', display: 'flex', alignItems: 'center', justifyContent: 'center', transform: 'translateY(+350%)' }}>
           {/* Updated alignment and padding styles */}
           <Link to="/" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={icono1} alt="icono" style={{ width: '100%', height: 'auto', opacity: 0.4, padding: '30%', alignItems: 'center' }} />
+            <img src={icono1} alt="icono" style={{ width: '100%', height: 'auto', opacity: 0.4, padding: '35%', alignItems: 'center' }} />
           </Link>
         </Grid>
       </Grid>

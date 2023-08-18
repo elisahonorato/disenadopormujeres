@@ -34,7 +34,7 @@ function Navbar({ borderStyle }) {
   const enoughSpaceForNavigation = !isSmallScreen || headerItems.every(item => item.label.length <= 6);
 
   return (
-    <AppBar position="sticky" elevation={0} sx={{ borderBottom: borderStyle }}>
+    <AppBar position="sticky" elevation={0} sx={{ borderBottom: borderStyle, paddingTop: theme.spacing(2) }}>
       <Toolbar
         sx={{
           justifyContent: 'space-between',
@@ -77,6 +77,7 @@ function Navbar({ borderStyle }) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'flex-end',
+            alignContent: 'center',
             flexWrap: isMenuOpen || !isSmallScreen ? 'wrap' : 'nowrap',
             padding: theme.spacing(1),
             maxWidth: isSmallScreen ? '100%' : theme.breakpoints.values.lg,
@@ -91,11 +92,29 @@ function Navbar({ borderStyle }) {
                     textDecoration: 'none',
                   }}
                 >
-                  <Typography variant="h6" sx={{ ml: theme.spacing(2) }}>{d.label}</Typography>
+                  <Typography variant="h6" sx={{ ml: theme.spacing(1) }}>{d.label}</Typography>
                 </Link>
                 {i < headerItems.length - 1 && <Typography variant="h6" sx={{ mx: theme.spacing(1) }}>{'//'}</Typography>}
               </React.Fragment>
             ))}
+            <Link to={'/contact'} style={{textDecoration: 'none',}}> 
+              <Box
+                sx={{
+                  display: 'inline-block',
+                  padding: '5px 10px',
+                  paddingLeft: '12px',
+                  paddingRight: '12px',
+                  ml: theme.spacing(5),
+                  borderRadius: theme.spacing(0.1),
+                  backgroundColor: 'transparent',
+                  border: `1.8px solid ${theme.palette.primary.dark}`, 
+
+                }}
+              >
+                <Typography variant="h6" sx={{ color: 'black' }}>Contacto</Typography>
+              </Box>
+            </Link>
+          
         </Box>
       </Toolbar>
     </AppBar>

@@ -25,7 +25,7 @@ const theme = createTheme({
         lineHeight: 1.5,
     },
     h6: {
-        fontFamily: 'UniversLTStd-Bold, Arial, sans-serif',
+        fontFamily: 'UniversLTStd-Regular, Arial, sans-serif',
         fontSize: '1rem',
         fontWeight: 700,
         lineHeight: 1.5,
