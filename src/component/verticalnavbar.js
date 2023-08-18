@@ -15,7 +15,6 @@ function VerticalNavbar({ navbarSize }) {
           </Link>
         </Grid>
         <Grid item sx={{ flexGrow: '1', display: 'flex', alignItems: 'center', justifyContent: 'center', transform: 'translateY(+350%)' }}>
-          {/* Updated alignment and padding styles */}
           <Link to="/" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={icono1} alt="icono" style={{ width: '100%', height: 'auto', opacity: 0.4, padding: '35%', alignItems: 'center' }} />
           </Link>
