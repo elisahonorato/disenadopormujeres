@@ -12,7 +12,7 @@ const teamMembers = [
   { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
   { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
   { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
-  // Add more team members here
+
 ];
 
 function Equipo() {

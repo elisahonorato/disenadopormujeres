@@ -5,8 +5,6 @@ function Home() {
   return (
     <Container maxWidth="xl" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
       <Grid container spacing={4}>
-        {/* Photo */}
-        {/* Text */}
         <Grid item xs={12} md={6}>
           <Typography variant="h1" gutterBottom>
             Welcome to the World of About!

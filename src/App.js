@@ -26,7 +26,7 @@ function App() {
               backgroundColor: theme.palette.primary.main,
               borderRight: `1.5px solid ${theme.palette.primary.light}`,
               flexDirection: { xs: 'column', md: 'row' },
-              alignItems: 'center', // Center items vertically in the sidebar
+              alignItems: 'center',
             }}
           >
             <VerticalNavbar navbarSize={'80px'} />
@@ -44,7 +44,7 @@ function App() {
               maxWidth="xl"
               sx={{ display: 'flex', flexDirection: 'column', flex: 1, paddingTop: theme.spacing(4) }}
             >
-              {/* Routes content */}
+              {/* Rutas */}
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
