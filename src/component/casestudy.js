@@ -1,34 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Container, Typography, Grid, Fade, Box } from '@mui/material';
 import caseStudies from './caseStudies';
 
 import theme from '../theme';
-
 
 function importar(name, folder) {
   return require(`../assets/images/casestudy/${folder}/${name}`);
 }
 
 function CaseStudy() {
-  const [visibleCases, setVisibleCases] = useState(3); // Casos iniciales
-  const itemsPerLoad = 1; // Casos que se cargan cada vez
-
-  const handleScroll = () => {
-    if (window.innerHeight * (6 / 5) + window.scrollY >= document.body.offsetHeight) {
-      // Este es el límite de la pantalla
-      setVisibleCases((prevVisibleCases) =>
-        Math.min(prevVisibleCases + itemsPerLoad, caseStudies.length)
-      );
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   const caseStudiesByFolder = {};
   caseStudies.forEach((study) => {
     if (!caseStudiesByFolder[study.folder]) {
@@ -42,10 +22,10 @@ function CaseStudy() {
       {Object.entries(caseStudiesByFolder).map(([folder, studies]) => (
         <Box key={folder} marginBottom="40px">
           <Typography variant="h2" style={{ marginBottom: theme.spacing(4) }}>
-            {folder} {/* Display folder title */}
+            {folder}
           </Typography>
-        <Box display="flex" flexWrap="wrap" justifyContent="center">
-            {studies.slice(0, visibleCases).map((study, index) => (
+          <Box display="flex" flexWrap="wrap" justifyContent="center">
+            {studies.map((study, index) => (
               <Grid
                 key={index}
                 item
@@ -82,9 +62,7 @@ function CaseStudy() {
                       <strong>Archivo: </strong>
                       {study.archivo}
                     </Typography>
-
                   </Box>
-
                 </Fade>
               </Grid>
             ))}
