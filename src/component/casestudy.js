@@ -1,22 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Typography, Grid, Fade, Box } from '@mui/material';
-import case1 from '../assets/images/casestudy/case1.png';
-import case2 from '../assets/images/casestudy/case1.png';
+import caseStudies from './caseStudies';
 
 import theme from '../theme';
 
-const caseStudies = [
-  { image: case1, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case2, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case1, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case2, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case1, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case2, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case2, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case1, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
-  { image: case2, titulo: 'Miembro 1', formato: 'Afiche', autor: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri' },
 
-];
+function importar (name, folder) {
+  return require(`../assets/images/casestudy/${folder}/${name}`);
+}
+
+
 
 function CaseStudy() {
   const [visibleCases, setVisibleCases] = useState(3); // Casos iniciales
@@ -46,7 +39,7 @@ function CaseStudy() {
             {/* Efecto fade */}
             <Fade in={true} timeout={500}>
               <Box display="flex" flexDirection="column" alignItems="left" p={2}>
-                <img src={study.image} alt={study.titulo} style={{ maxHeight: '400px', width: 'auto', objectFit: 'contain', marginBottom: '3vh' }} />
+                <img src={importar(study.image, study.folder)} alt={study.titulo} style={{ maxHeight: '400px', width: 'auto', objectFit: 'contain', marginBottom: '3vh' }} />
                 <Typography variant="body1" align="left">
                   <strong>Título: </strong>
                   {study.titulo}

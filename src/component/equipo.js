@@ -5,14 +5,48 @@ import miembro2 from '../assets/images/equipo/miembro2.jpg';
 import theme from '../theme';
 
 const teamMembers = [
-  { image: miembro1, name: 'Miembro 1', position: 'Cargo 1' },
-  { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
-  { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
-  { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
-  { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
-  { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
-  { image: miembro2, name: 'Miembro 2', position: 'Cargo 2' },
-
+  {
+    image: miembro1,
+    name: 'Katherine Mollenhauer',
+    position: 'Directora',
+    bio: 'Diseñadora en Equipamiento de la Universidad Tecnológica Metropolitana y Doctora en Diseño Estratégico e Innovación, Universidad de Barcelona'
+  },
+  {
+    image: miembro2,
+    name: 'Patricia Sánchez',
+    position: 'Asistente de investigación',
+    bio: 'Diseñadora, Pontificia Universidad Católica de Chile; Magister en Estudios de Género, Universidad de Chile'
+  },
+  {
+    image: miembro2,
+    name: 'Sara Riveros',
+    position: 'Asistente de investigación',
+    bio: 'Diseñadora, Pontificia Universidad Católica de Chile y Diplomada de Postítulo de Gestión en Salud de la Universidad de Valparaíso'
+  },
+  {
+    image: miembro2,
+    name: 'Olga Fuentes',
+    position: 'Asistente de investigación',
+    bio: 'Diseñadora de la Pontificia Universidad Católica de Chile'
+  },
+  {
+    image: miembro2,
+    name: 'Pedro Álvarez',
+    position: 'Co-investigador',
+    bio: 'Diseñador, Magister y Doctor en Historia de la Pontificia Universidad Católica de Chile'
+  },
+  {
+    image: miembro2,
+    name: 'Pablo Hermansen',
+    position: 'Co-investigador',
+    bio: 'Diseñador, Dr. Arquitectura y Estudios Urbanos, Pontificia Universidad Católica de Chile'
+  },
+  {
+    image: miembro2,
+    name: 'Jose Guerra',
+    position: 'Coordinador',
+    bio: 'Antropólogo, Magíster en Estéticas Americanas, Pontificia Universidad Católica de Chile'
+  }
 ];
 
 function Equipo() {
@@ -20,13 +54,20 @@ function Equipo() {
     <Container maxWidth="xl" style={{ paddingTop: theme.spacing(4) }}>
       <Grid container spacing={4}>
         {teamMembers.map((member, index) => (
-          <Grid item key={index} xs={12} sm={6} md={3} sx={{zIndex: 2000000 }}>
-            <div style={{ textAlign: 'left'}}>
+          <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 2000000 }}>
+            <div style={{ textAlign: 'left' }}>
               <div style={{ width: '100%', height: '150px', overflow: 'hidden', margin: '0 auto' }}>
                 <img src={member.image} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
-              <Typography variant="h4" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>{member.name}</Typography>
-              <Typography variant="h4" color="textSecondary">{member.position}</Typography>
+              <Typography variant="h5" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>
+                {member.name}
+              </Typography>
+              <Typography variant="subtitle1" color="textSecondary" sx={{mt:theme.spacing(1)}}>
+                {member.position}
+              </Typography>
+              <Typography variant="body2" color="textSecondary">
+                {member.bio}
+              </Typography>
             </div>
           </Grid>
         ))}
