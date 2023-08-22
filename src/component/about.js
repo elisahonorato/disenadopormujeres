@@ -14,7 +14,7 @@ function About() {
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           {aboutContent.map((paragraph, index) => (
-            <Typography key={index} variant="h6" paragraph>
+            <Typography key={index} variant="h4" paragraph>
               {paragraph}
             </Typography>
           ))}
