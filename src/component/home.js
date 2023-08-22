@@ -7,12 +7,10 @@ function Home() {
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <Typography variant="h1" gutterBottom>
-            Welcome to the World of About!
+          Diseñado por Mujeres
           </Typography>
           <Typography variant="body1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod eget nisl eu facilisis.
-            Fusce et nunc vel leo vestibulum dictum. Duis vel justo maximus, scelerisque risus sit amet,
-            vestibulum lorem. Sed tristique dui non nisl faucibus, et auctor eros vulputate.
+          Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género
           </Typography>
         </Grid>
         <Grid item xs={12} md={6}>
