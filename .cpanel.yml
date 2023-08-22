@@ -1,2 +1,2 @@
-- export DEPLOYPATH=/home/user/public_html/
+- export DEPLOYPATH=/home/disenado/public_html/
 - /bin/cp index.html $DEPLOYPATH
