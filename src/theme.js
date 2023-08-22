@@ -17,6 +17,11 @@ const theme = createTheme({
         fontSize: '4rem',
         
     },
+    h2: {
+        fontFamily: 'ChronicleTextG2-Semibd-Pro, serif',
+        fontSize: '2.5rem',
+    },
+  
     h4: {
         fontFamily: 'UniversLTStd-Cn, Arial, sans-serif',
         fontSize: '1.2rem',
