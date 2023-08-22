@@ -339,7 +339,7 @@ const caseStudies = [
         autor: 'Ximena Ulibarri',
         año: '2006',
         archivo: 'Ximena Ulibarri'
-    },{
+    }, {
         folder: "2000-2010",
         image: "prospectus_uc_2008_libro.jpg",
         titulo: 'Prospectus UC',
@@ -393,7 +393,7 @@ const caseStudies = [
         año: '2009',
         archivo: 'Ximena Ulibarri'
     },
-    
+
     // 2010-2023
     {
         folder: "2010-2023",
@@ -666,8 +666,8 @@ const caseStudies = [
         año: '1978',
         archivo: 'Ximena Ulibarri'
     }
-    
-    
+
+
 
 
 
