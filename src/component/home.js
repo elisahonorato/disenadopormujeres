@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
-import aboutImage from '../assets/images/equipo/miembro1.jpg';
+import aboutImage from '../assets/images/home/xime.jpg';
 function Home() {
   return (
     <Container maxWidth="xl" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
