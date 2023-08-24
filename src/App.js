@@ -16,6 +16,7 @@ import './fonts.css';
 import { purple } from '@mui/material/colors';
 
 function App() {
+  console.log('App');
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
