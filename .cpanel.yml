@@ -1,2 +1,5 @@
-- export DEPLOYPATH=/home/disenado/public_html/
-- /bin/cp index.html $DEPLOYPATH
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
