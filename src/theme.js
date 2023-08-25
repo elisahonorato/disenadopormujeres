@@ -1,11 +1,14 @@
 import { createTheme } from '@mui/material/styles';
 
+
+
 const theme = createTheme({
   palette: {
     primary: {
       main: '#D9DBE3',
       light: '#C2C4CC',
       dark: '#000000',
+      purple: '#5B3E7C',
 
     },
     secondary: {
@@ -27,6 +30,8 @@ const theme = createTheme({
       fontSize: '1rem',
       fontWeight: 400,
       lineHeight: 1.5,
+
+      
     },
 
   

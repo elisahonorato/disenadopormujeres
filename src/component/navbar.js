@@ -92,7 +92,13 @@ function Navbar({ borderStyle }) {
                     textDecoration: 'none',
                   }}
                 >
-                  <Typography variant="h3" sx={{ ml: theme.spacing(1), color: theme.palette.primary.dark }}>{d.label}</Typography>
+                  <Typography variant="h3" sx={{
+                     ml: theme.spacing(1), 
+                     color: theme.palette.primary.dark,
+                      '&:hover': {
+                        color: theme.palette.primary.purple,
+                      },
+                     }}>{d.label}</Typography>
                 </Link>
                 {i < headerItems.length - 1 && <Typography variant="h3" sx={{ mx: theme.spacing(1) }}>{'//'}</Typography>}
               </React.Fragment>
@@ -101,17 +107,23 @@ function Navbar({ borderStyle }) {
               <Box
                 sx={{
                   display: 'inline-block',
-                  padding: '5px 10px',
-                  paddingLeft: '12px',
-                  paddingRight: '12px',
+                  paddingTop: '6px',
+                  paddingBottom: '3px',
+                  paddingLeft: '10px',
+                  paddingRight: '10px',
                   ml: theme.spacing(5),
                   borderRadius: theme.spacing(0.1),
                   backgroundColor: 'transparent',
                   border: `1.8px solid ${theme.palette.primary.dark}`, 
+                  '&:hover': {
+                    backgroundColor: theme.palette.primary.light,
+                    color: 'white',
+                    
+                  },
 
                 }}
               >
-                <Typography variant="h6" sx={{ color: 'black' }}>Contacto</Typography>
+                <Typography variant="h3" sx={{ color: 'black' }}>Contacto</Typography>
               </Box>
             </Link>
           
