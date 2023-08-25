@@ -51,7 +51,7 @@ const teamMembers = [
 
 function Equipo() {
   return (
-    <Container maxWidth="xl" style={{ paddingTop: theme.spacing(4) }}>
+    <Container maxWidth="xl" sx={theme.container}>
       <Grid container spacing={4}>
         {teamMembers.map((member, index) => (
           <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 2000000 }}>
@@ -62,10 +62,10 @@ function Equipo() {
               <Typography variant="h5" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>
                 {member.name}
               </Typography>
-              <Typography variant="subtitle1" color="textSecondary" sx={{mt:theme.spacing(1)}}>
+              <Typography variant="h5" color="textSecondary" sx={{my:theme.spacing(1)}}>
                 {member.position}
               </Typography>
-              <Typography variant="body2" color="textSecondary">
+              <Typography variant="h6" color="textSecondary">
                 {member.bio}
               </Typography>
             </div>

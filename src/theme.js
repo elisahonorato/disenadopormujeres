@@ -5,6 +5,7 @@ const theme = createTheme({
     primary: {
       main: '#D9DBE3',
       light: '#C2C4CC',
+      dark: '#000000',
 
     },
     secondary: {
@@ -21,24 +22,40 @@ const theme = createTheme({
         fontFamily: 'ChronicleTextG2-Semibd-Pro, serif',
         fontSize: '2.5rem',
     },
+    h3: {
+      fontFamily: 'UniversLTStd-Bold, Arial, sans-serif',
+      fontSize: '1rem',
+      fontWeight: 400,
+      lineHeight: 1.5,
+    },
+
   
     h4: {
         fontFamily: 'UniversLTStd-Cn, Arial, sans-serif',
-        fontSize: '1.2rem',
+        fontSize: '1.1rem',
         fontWeight: 400,
         lineHeight: 1.5,
     },
+    h5: {
+        fontFamily: 'UniversLTStd-Cn, Arial, sans-serif',
+        fontSize: '1rem',
+        fontWeight: 400,
+        lineHeight: 1.2,
+    },
+    
     h6: {
         fontFamily: 'UniversLTStd-Regular, Arial, sans-serif',
-        fontSize: '1rem',
-        fontWeight: 700,
-        lineHeight: 1.5,
-        textDecoration: 'none !important',
-        color: '#000000',
-    }
+        fontSize: '0.9rem',
+        fontWeight: 400,
+        lineHeight: 1.2,
+    },
 
 
   },
+  container: {
+    padding: '1rem',
+  },
+
 
   breakpoints: {
     values: {
@@ -48,8 +65,10 @@ const theme = createTheme({
         lg: 1280,
         xl: 1920,
     },
-    },
+
+  },
     spacing: [ 0, 4, 8, 16, 32, 64, 128, 256, 512]
+
 
 });
 

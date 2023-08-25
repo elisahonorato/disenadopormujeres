@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
+import theme from '../theme';
 
 function Metodology() {
   return (
-    <Container maxWidth="xl" style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh' }}>
+    <Container maxWidth="xl" sx={theme.container}>
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <Typography variant="h1" gutterBottom>

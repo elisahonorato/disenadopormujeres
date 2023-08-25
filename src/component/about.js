@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
 import aboutImage from '../assets/images/home/xime.jpg';
+import theme from '../theme';
 
 const aboutContent = [
   "“Diseñado por Mujeres: pioneras del diseño en Chile\" es un proyecto de investigación aplicada que no solo busca visibilizar las trayectorias de las pioneras del diseño a nivel nacional, sino que levanta los criterios que permiten reconocerlas. Por medio del uso de un enfoque situado, esta investigación interdisciplinaria intentó contribuir a disminuir la brecha en la valoración entre hombres y mujeres, poniendo de paso en evidencia el sesgo de género que existe al momento de caracterizar a una trayectoria profesional como exitosa.",
@@ -10,7 +11,7 @@ const aboutContent = [
 
 function About() {
   return (
-    <Container maxWidth="xl" style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh' }}>
+    <Container maxWidth="xl" sx={theme.container}>
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           {aboutContent.map((paragraph, index) => (

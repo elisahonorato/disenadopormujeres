@@ -92,9 +92,9 @@ function Navbar({ borderStyle }) {
                     textDecoration: 'none',
                   }}
                 >
-                  <Typography variant="h6" sx={{ ml: theme.spacing(1) }}>{d.label}</Typography>
+                  <Typography variant="h3" sx={{ ml: theme.spacing(1), color: theme.palette.primary.dark }}>{d.label}</Typography>
                 </Link>
-                {i < headerItems.length - 1 && <Typography variant="h6" sx={{ mx: theme.spacing(1) }}>{'//'}</Typography>}
+                {i < headerItems.length - 1 && <Typography variant="h3" sx={{ mx: theme.spacing(1) }}>{'//'}</Typography>}
               </React.Fragment>
             ))}
             <Link to={'/contact'} style={{textDecoration: 'none',}}> 

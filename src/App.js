@@ -39,12 +39,9 @@ function App() {
               zIndex={10000}
             />
           </Box>
-          <Box sx={{ backgroundColor: theme.palette.primary.main, flexGrow: 1 }}>
+          <Box sx={{ backgroundColor: theme.palette.primary.main, flexGrow: 1}}>
             <Navbar borderStyle={`1.5px solid ${theme.palette.primary.light}`} />
-            <Container
-              maxWidth="xl"
-              sx={{ display: 'flex', flexDirection: 'column', flex: 1, paddingTop: theme.spacing(4) }}
-            >
+            
               {/* Rutas */}
               <Routes>
                 <Route path="/" element={<Home />} />
@@ -55,7 +52,7 @@ function App() {
                 <Route path="/metodology" element={<Metodology />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>
-            </Container>
+     
           </Box>
         </Box>
       </Router>

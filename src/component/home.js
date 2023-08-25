@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
 import aboutImage from '../assets/images/home/xime.jpg';
+import theme from '../theme';
 function Home() {
   return (
-    <Container maxWidth="xl" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
+    <Container maxWidth="xl" sx={theme.container}>
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <Typography variant="h1" gutterBottom>
