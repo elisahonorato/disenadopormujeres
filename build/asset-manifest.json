@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.db678feb.js",
+    "main.js": "/static/js/main.ab1041d9.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
     "static/media/xime.jpg": "/static/media/xime.0e116480e0e816f9c816.jpg",
     "static/media/brocha_del_siglo_xxi_1994_libro-b.jpg": "/static/media/brocha_del_siglo_xxi_1994_libro-b.c0b5b5a036fad6f35c5a.jpg",
@@ -83,8 +83,8 @@
     "static/media/coleccion_ediciones_uc_1995-1998_libro.jpg": "/static/media/coleccion_ediciones_uc_1995-1998_libro.991af47497a2de5d0211.jpg",
     "static/media/palacios_al_norte_de_la_alameda_2012_libro-b.jpg": "/static/media/palacios_al_norte_de_la_alameda_2012_libro-b.0ce8319c2a2df61df48a.jpg",
     "static/media/folletos_de_carrera_VRA-UC_2011_folleto.jpg": "/static/media/folletos_de_carrera_VRA-UC_2011_folleto.a8ac43de8ffbbcbaff3a.jpg",
-    "static/media/miembro2.jpg": "/static/media/miembro2.97a1e78ae9336b43fc55.jpg",
     "static/media/arrasadas_de_luz_2000_libro-b.jpg": "/static/media/arrasadas_de_luz_2000_libro-b.be5b620f6db0cf78ff46.jpg",
+    "static/media/miembro2.jpg": "/static/media/miembro2.1bacaca61706e65281c2.jpg",
     "static/media/logo.png": "/static/media/logo.a9638254dc720da00503.png",
     "static/media/vidrio.png": "/static/media/vidrio.b56f5036f49f29dc709f.png",
     "static/media/UniversLTStd-Bold.otf": "/static/media/UniversLTStd-Bold.8d6e7b74d50d83677d98.otf",
@@ -92,11 +92,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.db678feb.js.map": "/static/js/main.db678feb.js.map",
+    "main.ab1041d9.js.map": "/static/js/main.ab1041d9.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.db678feb.js"
+    "static/js/main.ab1041d9.js"
   ]
 }
