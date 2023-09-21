@@ -13,7 +13,7 @@ function Contact() {
       </Box>
       <Box mt={4}>
         <Typography variant="h6">Teléfono</Typography>
-        <Typography variant="body1">+569</Typography>
+        <Typography variant="body1">+56 9 7528 4483</Typography>
       </Box>
       <Box mt={4}>
         <Typography variant="h6">Dirección</Typography>
