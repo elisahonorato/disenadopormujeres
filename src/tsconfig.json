@@ -6,7 +6,6 @@
       "noEmit": false,
       "esModuleInterop": true,
       "jsx": "react",
-      "lib": ["dom", "dom.iterable", "esnext"],
     },
     // ...
   }
