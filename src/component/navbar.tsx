@@ -5,7 +5,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../logo.png';
 import theme from '../theme.tsx';
 import logoSmall from '../assets/navbar/small_logo.png';
-import { purple } from '@mui/material/colors';
 
 const headerItems = [
   { label: 'Del Proyecto', href: '/about' },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, Grid, Box } from '@mui/material';
+import { Container, Typography, Grid } from '@mui/material';
 import theme from '../theme.tsx';
 import metodology from '../assets/images/metodologia/metodologia.png';
 
