@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.ab1041d9.js",
+    "main.js": "/static/js/main.f51394dc.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
+    "static/media/miembro7.jpg": "/static/media/miembro7.52d03e461d755887bb86.jpg",
     "static/media/xime.jpg": "/static/media/xime.0e116480e0e816f9c816.jpg",
+    "static/media/miembro5.jpg": "/static/media/miembro5.d65654d86410afe93012.jpg",
     "static/media/brocha_del_siglo_xxi_1994_libro-b.jpg": "/static/media/brocha_del_siglo_xxi_1994_libro-b.c0b5b5a036fad6f35c5a.jpg",
     "static/media/memoria_embotelladora_andina_2006_libro.jpg": "/static/media/memoria_embotelladora_andina_2006_libro.d35280c310bbb8bea320.jpg",
     "static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.jpg": "/static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.d43d95596159b97e86f1.jpg",
@@ -14,6 +16,7 @@
     "static/media/equipo_publicidad_universitaria_1985_foto.jpg": "/static/media/equipo_publicidad_universitaria_1985_foto.7f92693ec403518384e8.jpg",
     "static/media/icsid_interdesign_2003_afiche-folleteria.jpg": "/static/media/icsid_interdesign_2003_afiche-folleteria.67418c6824be76f76544.jpg",
     "static/media/ximena_ulibarri_celebracion_taller_diseno_grafico_1966_foto.jpg": "/static/media/ximena_ulibarri_celebracion_taller_diseno_grafico_1966_foto.f22e26317c524375ec21.jpg",
+    "static/media/metodologia.png": "/static/media/metodologia.f2c53de63d258ede41d6.png",
     "static/media/ximena_ulibarri_publicidad_universitaria_1978_foto.jpg": "/static/media/ximena_ulibarri_publicidad_universitaria_1978_foto.b16f63e9dac65038835b.jpg",
     "static/media/lily_garafulic_2003_libro.jpg": "/static/media/lily_garafulic_2003_libro.d5ea3d9c50dff143825e.jpg",
     "static/media/catalogos_libros_para_galeria_gabriela_mistral_1995_libro.jpg": "/static/media/catalogos_libros_para_galeria_gabriela_mistral_1995_libro.da4a48261d48cd5c98df.jpg",
@@ -83,20 +86,23 @@
     "static/media/coleccion_ediciones_uc_1995-1998_libro.jpg": "/static/media/coleccion_ediciones_uc_1995-1998_libro.991af47497a2de5d0211.jpg",
     "static/media/palacios_al_norte_de_la_alameda_2012_libro-b.jpg": "/static/media/palacios_al_norte_de_la_alameda_2012_libro-b.0ce8319c2a2df61df48a.jpg",
     "static/media/folletos_de_carrera_VRA-UC_2011_folleto.jpg": "/static/media/folletos_de_carrera_VRA-UC_2011_folleto.a8ac43de8ffbbcbaff3a.jpg",
+    "static/media/miembro3.jpg": "/static/media/miembro3.97a1e78ae9336b43fc55.jpg",
+    "static/media/miembro4.jpg": "/static/media/miembro4.df7ac87168b241096e31.jpg",
     "static/media/arrasadas_de_luz_2000_libro-b.jpg": "/static/media/arrasadas_de_luz_2000_libro-b.be5b620f6db0cf78ff46.jpg",
     "static/media/miembro2.jpg": "/static/media/miembro2.1bacaca61706e65281c2.jpg",
     "static/media/logo.png": "/static/media/logo.a9638254dc720da00503.png",
+    "static/media/miembro6.jpg": "/static/media/miembro6.d47b3eb03aef933a613a.jpg",
     "static/media/vidrio.png": "/static/media/vidrio.b56f5036f49f29dc709f.png",
     "static/media/UniversLTStd-Bold.otf": "/static/media/UniversLTStd-Bold.8d6e7b74d50d83677d98.otf",
     "static/media/UniversLTStd-Cn.otf": "/static/media/UniversLTStd-Cn.ed864895e7fb8c70ebae.otf",
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.ab1041d9.js.map": "/static/js/main.ab1041d9.js.map",
+    "main.f51394dc.js.map": "/static/js/main.f51394dc.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.ab1041d9.js"
+    "static/js/main.f51394dc.js"
   ]
 }
