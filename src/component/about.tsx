@@ -26,7 +26,7 @@ function About({ theme }: AboutProps) {
           ))}
         </Grid>
         <Grid item xs={12} md={6}>
-          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
+          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '100%', height: 'auto', objectFit: 'cover' }} hover={false} />
 
         </Grid>
       </Grid>

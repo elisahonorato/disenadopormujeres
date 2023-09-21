@@ -48,7 +48,8 @@ const theme = createTheme({
     },
     secondary: {
       main: '#FFC107',
-      dark: '#5B3E7C', // purple color
+      dark: '#8762AF', // purple color
+      light: '#AFA2C8',
     },
   },
   typography: {
@@ -89,6 +90,19 @@ const theme = createTheme({
         fontSize: '0.9rem',
         fontWeight: 400,
         lineHeight: 1.2,
+    },
+    subtitle1: {
+        fontFamily: 'ChronicleTextG2-Semibd-Pro, serif',
+        fontSize: '1rem',
+        textTransform: 'uppercase',
+        
+    
+    },
+    subtitle2: {
+        fontFamily: 'ChronicleTextG1-Semibd-Pro, serif',
+        fontSize: '1rem',
+        textDecoration: 'uppercase',
+        color: '#5B3E7C',
     },
 
 
