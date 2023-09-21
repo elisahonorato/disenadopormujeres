@@ -2,7 +2,7 @@
   "name": "disenadopormujeres",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://elisahonorato.github.io/disenadopormujeres/",
+
   
   "dependencies": {
     "@emotion/react": "^11.11.1",
