@@ -7,20 +7,24 @@ import ColorFilter from './colorfilter.tsx';
 // Definir un tipo personalizado para 'position'
 type Position = 'sticky' | 'absolute';
 
-const textOverlayStyles = {
-  zIndex: 1,
-  width: '80%',
-};
 
 function Home() {
   const [positionStyle, setPositionStyle] = useState<Position>('sticky');
+  const [width, setWidth] = useState('100%');
+  const textOverlayStyles = {
+    zIndex: 1,
+    width: width,
+  };
+  
 
   useEffect(() => {
     const handleWindowResize = () => {
       if (window.innerWidth < 600) {
+        setWidth('100%')
         setPositionStyle('sticky');
       } else {
         setPositionStyle('absolute');
+        setWidth('60%');
       }
     };
 
