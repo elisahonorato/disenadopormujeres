@@ -9,7 +9,7 @@ function Contact() {
       </Typography>
       <Box mt={4}>
         <Typography variant="h6">Email</Typography>
-        <Typography variant="body1">contacto@uc.cl</Typography>
+        <Typography variant="body1">katty.mollenhauer@gmail.com</Typography>
       </Box>
       <Box mt={4}>
         <Typography variant="h6">Teléfono</Typography>
