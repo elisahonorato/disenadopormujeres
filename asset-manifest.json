@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.107fcdeb.js",
+    "main.js": "/static/js/main.db678feb.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
     "static/media/xime.jpg": "/static/media/xime.0e116480e0e816f9c816.jpg",
     "static/media/brocha_del_siglo_xxi_1994_libro-b.jpg": "/static/media/brocha_del_siglo_xxi_1994_libro-b.c0b5b5a036fad6f35c5a.jpg",
@@ -92,11 +92,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.107fcdeb.js.map": "/static/js/main.107fcdeb.js.map",
+    "main.db678feb.js.map": "/static/js/main.db678feb.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.107fcdeb.js"
+    "static/js/main.db678feb.js"
   ]
 }
