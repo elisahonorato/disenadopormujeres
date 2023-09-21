@@ -38,7 +38,7 @@ function App() {
               size={'300px'}
               marginTop={'90px'}
               marginLeft={'calc(50% + 20vh)'}
-              zIndex={1}
+              zIndex={10000}
             />
           </Box>
           <Box sx={{ backgroundColor: theme.palette.primary.main, flexGrow: 1}}>

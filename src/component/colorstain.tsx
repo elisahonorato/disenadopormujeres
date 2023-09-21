@@ -15,14 +15,14 @@ const ColorStain: React.FC<ColorStainProps> = ({
 }) => {
   color = color || 'black';
   size = size || '300px';
-  marginTop = marginTop || '0px';
+  marginTop = 0 || '0px';
   marginLeft = marginLeft || '0px';
   marginRight = marginRight || '0px';
   const stainStyle: React.CSSProperties = {
     marginTop: marginTop,
     marginLeft: marginLeft,
     marginRight: marginRight,
-    position: 'fixed',
+    position: 'absolute',
     overflow: 'hidden',
     width: size,
     height: size,

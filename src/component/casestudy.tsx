@@ -6,7 +6,7 @@ import theme from '../theme.tsx';
 
 interface CaseStudyProps {
   titulo: string;
-  autor: string;
+  autora: string;
   año: string;
   formato: string;
   archivo: string;
@@ -88,7 +88,7 @@ function CaseStudy() {
                           
                         </Typography>
                         <Typography variant="h5">
-                          Autor: {study.autor}
+                          Autora: {study.autora}
                         </Typography>
                         <Typography variant="h5">
                           Año: {study.año}
