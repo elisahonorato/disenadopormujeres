@@ -9,6 +9,7 @@ import Metodology from './component/metodology.tsx';
 import Contact from './component/contact.tsx';
 import VerticalNavbar from './component/verticalnavbar.tsx';
 import ColorStain from './component/colorstain.tsx';
+import Footer from './component/footer.tsx';
 import { ThemeProvider, CssBaseline, Box } from '@mui/material';
 import theme from './theme.tsx';
 
@@ -54,10 +55,12 @@ function App() {
                 <Route path="/metodology" element={<Metodology />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>
+              <Footer />
      
           </Box>
         </Box>
       </Router>
+      
     </ThemeProvider>
   );
 }

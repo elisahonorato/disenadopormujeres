@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Typography, Grid, Box } from '@mui/material';
 import miembro1 from '../assets/images/equipo/miembro1.jpg';
-import miembro2 from '../assets/images/equipo/miembro2.jpg';
 import miembro3 from '../assets/images/equipo/miembro3.jpg';
 import miembro4 from '../assets/images/equipo/miembro4.jpg';
 import miembro5 from '../assets/images/equipo/miembro5.jpg';
@@ -16,12 +15,6 @@ const teamMembers = [
     name: 'Katherine Mollenhauer',
     position: 'Directora',
     bio: 'Diseñadora en Equipamiento de la Universidad Tecnológica Metropolitana y Doctora en Diseño Estratégico e Innovación, Universidad de Barcelona'
-  },
-  {
-    image: miembro2,
-    name: 'Patricia Sánchez',
-    position: 'Asistente de investigación',
-    bio: 'Diseñadora, Pontificia Universidad Católica de Chile; Magister en Estudios de Género, Universidad de Chile'
   },
   {
     image: miembro3,
@@ -52,6 +45,18 @@ const teamMembers = [
     name: 'Jose Guerra',
     position: 'Coordinador',
     bio: 'Antropólogo, Magíster en Estéticas Americanas, Pontificia Universidad Católica de Chile'
+  },
+  {
+    image: '',
+    name: 'Patricia Sánchez',
+    position: 'Asistente de investigación',
+    bio: 'Diseñadora, Pontificia Universidad Católica de Chile; Magister en Estudios de Género, Universidad de Chile'
+  },
+  {
+    image: '',
+    name: 'Elisa Honorato',
+    position: 'Colaboración de Programación y Diseño Web',
+    bio: 'Diseñadora de la Pontificia Universidad Católica de Chile'
   }
 ];
 
@@ -62,8 +67,11 @@ function Equipo() {
         {teamMembers.map((member, index) => (
           <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 0}}>
             <Box style={{ textAlign: 'left', width: '100%'}}>
-          
+              { member.image && (
                 <ColorFilter image={member.image} alt={member.name} customStyles={{ width: '100%', height: '250px', objectFit: 'cover' }} hover={true} />
+              )
+              }
+
               
               <Typography variant="h5" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>
                 {member.name}
