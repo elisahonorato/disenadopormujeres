@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.0d4ecf3d.js",
+    "main.js": "/static/js/main.11a5f4dd.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
     "static/media/miembro7.jpg": "/static/media/miembro7.52d03e461d755887bb86.jpg",
     "static/media/xime.jpg": "/static/media/xime.0e116480e0e816f9c816.jpg",
@@ -89,7 +89,6 @@
     "static/media/miembro3.jpg": "/static/media/miembro3.97a1e78ae9336b43fc55.jpg",
     "static/media/miembro4.jpg": "/static/media/miembro4.df7ac87168b241096e31.jpg",
     "static/media/arrasadas_de_luz_2000_libro-b.jpg": "/static/media/arrasadas_de_luz_2000_libro-b.be5b620f6db0cf78ff46.jpg",
-    "static/media/miembro2.jpg": "/static/media/miembro2.1bacaca61706e65281c2.jpg",
     "static/media/logo.png": "/static/media/logo.a9638254dc720da00503.png",
     "static/media/miembro6.jpg": "/static/media/miembro6.d47b3eb03aef933a613a.jpg",
     "static/media/vidrio.png": "/static/media/vidrio.b56f5036f49f29dc709f.png",
@@ -98,11 +97,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.0d4ecf3d.js.map": "/static/js/main.0d4ecf3d.js.map",
+    "main.11a5f4dd.js.map": "/static/js/main.11a5f4dd.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.0d4ecf3d.js"
+    "static/js/main.11a5f4dd.js"
   ]
 }
