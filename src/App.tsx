@@ -34,15 +34,8 @@ function App() {
             }}
           >
             <VerticalNavbar navbarSize={'80px'} />
-            <ColorStain 
-              color={purple[600]}
-              size={'300px'}
-              marginTop={'90px'}
-              marginLeft={'calc(50% + 20vh)'}
-              zIndex={10000}
-            />
           </Box>
-          <Box sx={{ backgroundColor: theme.palette.primary.main, flexGrow: 1}}>
+          <Box sx={{ backgroundColor: theme.palette.primary.main}}>
             <Navbar borderStyle={`1.5px solid ${theme.palette.primary.light}`} />
             
               {/* Rutas */}

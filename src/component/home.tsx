@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Typography, Grid } from '@mui/material';
+import { Container, Typography, Grid, Paper} from '@mui/material';
 import aboutImage from '../assets/images/home/xime.jpg';
 import theme from '../theme.tsx';
 import ColorFilter from './colorfilter.tsx';
+import ColorStain from './colorstain.tsx';
+import { purple } from '@mui/material/colors';
 
 // Definir un tipo personalizado para 'position'
 type Position = 'sticky' | 'absolute';
@@ -38,7 +40,13 @@ function Home() {
   }, []);
 
   return (
-    <Container maxWidth="xl" sx={theme.container}>
+    <Paper elevation={0} sx={{ backgroundColor: theme.palette.primary.main }}>
+      <ColorStain 
+              color={purple[600]}
+              marginTop={'90px'}
+              marginLeft={'calc(50% + 20vh)'}
+              zIndex={10000}
+            />
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <div
@@ -47,16 +55,16 @@ function Home() {
               position: positionStyle,
             }}
           >
-            <Typography variant="h2">
+            <Typography variant="h2" marginTop={5} marginLeft={3}>
               Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género.
             </Typography>
           </div>
         </Grid>
         <Grid item xs={12} md={6}>
-          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '100%', height: 'auto', objectFit: 'cover' }} hover={false} />
+          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '100%', height: 'inherit', objectFit: 'cover'}} hover={false} />
         </Grid>
       </Grid>
-    </Container>
+    </Paper>
   );
 }
 

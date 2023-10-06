@@ -62,17 +62,16 @@ const teamMembers = [
 
 function Equipo() {
   return (
-    <Container maxWidth="xl" sx={theme.container}>
-      <Grid container spacing={4}>
+    <Container maxWidth="xl">
+      <Grid container paddingTop={5} paddingX={3} gap={0}>
         {teamMembers.map((member, index) => (
-          <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 0}}>
-            <Box style={{ textAlign: 'left', width: '100%'}}>
+          <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 0}} alignContent={'center'} textAlign={'center'}>
+            <Box style={{ textAlign: 'left', width: '100%'}} marginBottom={4}>
               { member.image && (
-                <ColorFilter image={member.image} alt={member.name} customStyles={{ width: '100%', height: '250px', objectFit: 'cover' }} hover={true} />
+                <ColorFilter image={member.image} alt={member.name} customStyles={{ width: '250px', height: '250px', objectFit: 'cover' }} hover={true} />
               )
               }
 
-              
               <Typography variant="h5" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>
                 {member.name}
               </Typography>

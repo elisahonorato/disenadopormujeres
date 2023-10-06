@@ -1,9 +1,9 @@
 import React from 'react';
 import vidrio from '../assets/texturas/vidrio.png';
+import { Paper } from '@mui/material';
 
 interface ColorStainProps {
   color: string;
-  size: string;
   marginTop: string;
   marginLeft: string;
   marginRight?: string;
@@ -11,33 +11,26 @@ interface ColorStainProps {
 }
 
 const ColorStain: React.FC<ColorStainProps> = ({
-  color, size, marginTop, marginLeft, marginRight, zIndex,
+  color, zIndex,
 }) => {
   color = color || 'black';
-  size = size || '300px';
-  marginTop = 0 || '0px';
-  marginLeft = marginLeft || '0px';
-  marginRight = marginRight || '0px';
-  const stainStyle: React.CSSProperties = {
-    marginTop: marginTop,
-    marginLeft: marginLeft,
-    marginRight: marginRight,
+  const stainStyle: React.CSSProperties = { 
     position: 'absolute',
+    display: 'inline-block',
     overflow: 'hidden',
-    width: size,
-    height: size,
+    width: '150px',
+    height: '300px',
+    marginLeft: 'calc(50% + 2vh)',
     borderRadius: '60%',
     opacity: 0.6,
     zIndex: zIndex,
     backgroundImage: `
       radial-gradient(ellipse at center, ${color} 60%, transparent 100%),
       url(${vidrio})`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
     filter: 'blur(80px)', // Agrega un filtro de desenfoque
   };
 
-  return <div style={stainStyle}></div>;
+  return <Paper style={stainStyle}></Paper>;
 };
 
 export default ColorStain;

@@ -107,9 +107,7 @@ const theme = createTheme({
 
 
   },
-  container: {
-    padding: '1rem',
-  },
+
 
 
   breakpoints: {
