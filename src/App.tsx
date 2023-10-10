@@ -24,7 +24,13 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
-        <Box sx={{ display: 'flex', minHeight: '100vh' }}>
+        <Box
+          sx={{
+            display: 'flex',
+            minHeight: '100vh',
+            backgroundColor: theme.palette.primary.main,
+          }}
+        >
           <Box
             sx={{
               backgroundColor: theme.palette.primary.main,
@@ -35,25 +41,22 @@ function App() {
           >
             <VerticalNavbar navbarSize={'80px'} />
           </Box>
-          <Box sx={{ backgroundColor: theme.palette.primary.main}}>
+          <Box>
             <Navbar borderStyle={`1.5px solid ${theme.palette.primary.light}`} />
-            
-              {/* Rutas */}
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="/about" element={<About theme={theme} />} />
-                <Route path="/equipo" element={<Equipo />} />
-                <Route path="/casestudy" element={<CaseStudy />} />
-                <Route path="/metodology" element={<Metodology />} />
-                <Route path="/contact" element={<Contact />} />
-              </Routes>
-              <Footer />
-     
+            {/* Rutas */}
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/about" element={<About theme={theme} />} />
+              <Route path="/equipo" element={<Equipo />} />
+              <Route path="/casestudy" element={<CaseStudy />} />
+              <Route path="/metodology" element={<Metodology />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+            <Footer />
           </Box>
         </Box>
       </Router>
-      
     </ThemeProvider>
   );
 }

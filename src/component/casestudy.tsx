@@ -33,7 +33,7 @@ function CaseStudy() {
   });
 
   return (
-    <Container maxWidth="xl" style={{backgroundColor: '#FFFFFF' }} sx={theme.container}>
+    <Container maxWidth="xl" style={{backgroundColor: '#FFFFFF'}} >
       {Object.entries(caseStudiesByFolder).map(([folder, studies]) => {
         // Calcular la cantidad de páginas
 
@@ -45,11 +45,11 @@ function CaseStudy() {
         );
 
         return pagesArray.map((pageStudies, pageIndex) => (
-          <Box key={`${folder}_page_${pageIndex}`} marginBottom="40px">
-            <Typography variant="h2" style={{ marginBottom: theme.spacing(1) }}>
+          <Box key={`${folder}_page_${pageIndex}`} paddingTop={theme.spacing(3)} paddingBottom={theme.spacing()}>
+            <Typography variant="h2" style={{ marginBottom: theme.spacing(1), marginTop: theme.spacing(2) }}>
               {folder}
             </Typography>
-            <Box display="flex" flexWrap="wrap" justifyContent="center">
+            <Box display="flex" flexWrap="wrap" justifyContent="center" >
               {pageStudies.map((study, index) => (
                 <Grid
                   key={index}

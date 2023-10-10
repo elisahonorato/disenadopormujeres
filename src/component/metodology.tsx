@@ -6,7 +6,7 @@ import metodology from '../assets/images/metodologia/metodologia.png';
 
 function Metodology() {
   return (
-    <Container maxWidth="xl" sx={theme.container}>
+    <Container maxWidth="xl" sx={{mt: theme.spacing(3)}}>
       <Grid container spacing={4}>
         <Grid item xs={12} md={4}>
           <Typography variant="h6">

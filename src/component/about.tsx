@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
 import aboutImage from '../assets/images/home/xime.jpg';
 import ColorFilter from './colorfilter.tsx';
+import ColorStain from './colorstain.tsx';
+import { purple } from '@mui/material/colors';
+import theme from '../theme';
 
 
 interface AboutProps {
@@ -17,16 +20,23 @@ function About({ theme }: AboutProps) {
 
   return (
     <Container maxWidth="xl" sx={theme.container}>
+      <ColorStain 
+              color={purple[600]}
+              marginTop={'90px'}
+              marginLeft={'calc(50% + 20vh)'}
+              zIndex={10000}
+            />
+
       <Grid container spacing={4}>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} sx={{mt:theme.spacing(4)}}>
           {aboutContent.map((paragraph, index) => (
             <Typography key={index} variant="h4" paragraph>
               {paragraph}
             </Typography>
           ))}
         </Grid>
-        <Grid item xs={12} md={6}>
-          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '100%', height: 'auto', objectFit: 'cover' }} hover={false} />
+        <Grid item xs={12} md={6} textAlign={'right'}>
+          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '80%', height: 'inherit', objectFit: 'cover'}} hover={false} align='right'/>
 
         </Grid>
       </Grid>

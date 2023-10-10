@@ -1,9 +1,10 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
+import theme from '../theme.tsx';
 
 function Contact() {
   return (
-    <Box>
+    <Box marginLeft={theme.spacing(2)}>
       <Typography variant="h1" gutterBottom>
         Contáctanos
       </Typography>
