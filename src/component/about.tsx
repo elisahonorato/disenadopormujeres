@@ -5,6 +5,8 @@ import ColorFilter from './colorfilter.tsx';
 import ColorStain from './colorstain.tsx';
 import { purple } from '@mui/material/colors';
 import theme from '../theme';
+// @ts-ignore
+import video from '../assets/videos/about_2023.mp4';
 
 
 interface AboutProps {
@@ -36,10 +38,16 @@ function About({ theme }: AboutProps) {
           ))}
         </Grid>
         <Grid item xs={12} md={6} textAlign={'right'}>
-          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '80%', height: 'inherit', objectFit: 'cover'}} hover={false} align='right'/>
+          <video style={{maxWidth: '100%'}} autoPlay={true} controls>
+            <source src={video} type="video/mp4"></source>
+          
+            Your browser does not support HTML video.
+          </video>
 
-        </Grid>
+      
+        
       </Grid>
+    </Grid>
     </Container>
   );
 }

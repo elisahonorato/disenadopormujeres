@@ -1,10 +1,18 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
 import theme from '../theme.tsx';
+import ColorStain from './colorstain.tsx';
+import { purple } from '@mui/material/colors';
 
 function Contact() {
   return (
     <Box marginLeft={theme.spacing(2)}>
+      <ColorStain 
+              color={purple[600]}
+              marginTop={'90px'}
+              marginLeft={'calc(50% + 20vh)'}
+              zIndex={10000}
+            />
       <Typography variant="h1" gutterBottom>
         Contáctanos
       </Typography>
