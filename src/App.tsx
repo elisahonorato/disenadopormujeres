@@ -26,8 +26,9 @@ function App() {
       <Router>
         <Box
           sx={{
+            maxWidth: '100vw',
+            overflowX: 'hidden', // Oculta el desbordamiento horizontal
             display: 'flex',
-            minHeight: '100vh',
             backgroundColor: theme.palette.primary.main,
           }}
         >
