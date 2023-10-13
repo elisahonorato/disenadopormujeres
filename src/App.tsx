@@ -10,7 +10,7 @@ import Contact from './component/contact.tsx';
 import VerticalNavbar from './component/verticalnavbar.tsx';
 import ColorStain from './component/colorstain.tsx';
 import Footer from './component/footer.tsx';
-import { ThemeProvider, CssBaseline, Box } from '@mui/material';
+import { ThemeProvider, CssBaseline, Box, Container } from '@mui/material';
 import theme from './theme.tsx';
 
 import './App.css';
@@ -24,10 +24,11 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
-        <Box
+        <Container
           sx={{
-            maxWidth: '100vw',
-            overflowX: 'hidden', // Oculta el desbordamiento horizontal
+            minWidth: '100%',
+            maxWidth: '100%',
+        
             display: 'flex',
             backgroundColor: theme.palette.primary.main,
           }}
@@ -56,7 +57,7 @@ function App() {
             </Routes>
             <Footer />
           </Box>
-        </Box>
+        </Container>
       </Router>
     </ThemeProvider>
   );

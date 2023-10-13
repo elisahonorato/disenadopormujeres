@@ -62,7 +62,7 @@ const teamMembers = [
 
 function Equipo() {
   return (
-    <Container maxWidth="xl">
+    <Container>
       <Grid container paddingTop={5} paddingX={3} gap={0}>
         {teamMembers.map((member, index) => (
           <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 0}} alignContent={'center'} textAlign={'center'}>
