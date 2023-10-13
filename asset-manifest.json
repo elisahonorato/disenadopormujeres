@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.046ee5f6.js",
+    "main.js": "/static/js/main.321ef0b5.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
+    "static/media/about_2023.mp4": "/static/media/about_2023.8343dd6d3c31176db7cf.mp4",
     "static/media/miembro7.jpg": "/static/media/miembro7.52d03e461d755887bb86.jpg",
     "static/media/xime.jpg": "/static/media/xime.0e116480e0e816f9c816.jpg",
     "static/media/miembro5.jpg": "/static/media/miembro5.d65654d86410afe93012.jpg",
@@ -15,8 +16,8 @@
     "static/media/revista_universitaria_cd_2006_revista-a.jpg": "/static/media/revista_universitaria_cd_2006_revista-a.d849a45ae7ef59ccf21f.jpg",
     "static/media/equipo_publicidad_universitaria_1985_foto.jpg": "/static/media/equipo_publicidad_universitaria_1985_foto.7f92693ec403518384e8.jpg",
     "static/media/icsid_interdesign_2003_afiche-folleteria.jpg": "/static/media/icsid_interdesign_2003_afiche-folleteria.67418c6824be76f76544.jpg",
+    "static/media/metodologia.png": "/static/media/metodologia.d9fb17f2f65cc9d55369.png",
     "static/media/ximena_ulibarri_celebracion_taller_diseno_grafico_1966_foto.jpg": "/static/media/ximena_ulibarri_celebracion_taller_diseno_grafico_1966_foto.f22e26317c524375ec21.jpg",
-    "static/media/metodologia.png": "/static/media/metodologia.f2c53de63d258ede41d6.png",
     "static/media/ximena_ulibarri_publicidad_universitaria_1978_foto.jpg": "/static/media/ximena_ulibarri_publicidad_universitaria_1978_foto.b16f63e9dac65038835b.jpg",
     "static/media/lily_garafulic_2003_libro.jpg": "/static/media/lily_garafulic_2003_libro.d5ea3d9c50dff143825e.jpg",
     "static/media/catalogos_libros_para_galeria_gabriela_mistral_1995_libro.jpg": "/static/media/catalogos_libros_para_galeria_gabriela_mistral_1995_libro.da4a48261d48cd5c98df.jpg",
@@ -97,11 +98,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.046ee5f6.js.map": "/static/js/main.046ee5f6.js.map",
+    "main.321ef0b5.js.map": "/static/js/main.321ef0b5.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.046ee5f6.js"
+    "static/js/main.321ef0b5.js"
   ]
 }
