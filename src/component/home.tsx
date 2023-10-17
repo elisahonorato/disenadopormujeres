@@ -56,12 +56,12 @@ function Home() {
             }}
           >
             <Typography variant="h2" marginTop={theme.spacing(4)} marginLeft={3}>
-              Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género.
+            Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género
             </Typography>
           </div>
         </Grid>
         <Grid item xs={12} md={6} textAlign={'right'}>
-          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '100%', height: 'inherit', objectFit: 'cover'}} hover={false}/>
+          <ColorFilter image={aboutImage} alt='Ximena Ulibarri' customStyles={{ width: '79%', height: 'inherit', objectFit: 'cover'}} hover={false}/>
         </Grid>
       </Grid>
     </Container>

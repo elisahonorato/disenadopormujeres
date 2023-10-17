@@ -60,7 +60,7 @@ const theme = createTheme({
     },
     h2: {
         fontFamily: 'ChronicleTextG2-Semibd-Pro, serif',
-        fontSize: '2.5rem',
+        fontSize: '2.2rem',
     },
     h3: {
       fontFamily: 'UniversLTStd-Bold, Arial, sans-serif',

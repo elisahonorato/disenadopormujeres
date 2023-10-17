@@ -64,6 +64,9 @@ function Equipo() {
   return (
     <Container>
       <Grid container paddingTop={5} paddingX={3} gap={0}>
+      <Typography variant="h1" gutterBottom paddingX={3}>
+        Contáctanos
+      </Typography>
         {teamMembers.map((member, index) => (
           <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 0}} alignContent={'center'} textAlign={'center'}>
             <Box style={{ textAlign: 'left', width: '100%'}} marginBottom={4}>
