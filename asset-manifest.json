@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.77f9f094.js",
+    "main.js": "/static/js/main.2cacf05c.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
     "static/media/about_2023.mp4": "/static/media/about_2023.8343dd6d3c31176db7cf.mp4",
     "static/media/miembro7.jpg": "/static/media/miembro7.52d03e461d755887bb86.jpg",
     "static/media/xime.jpg": "/static/media/xime.0e116480e0e816f9c816.jpg",
     "static/media/miembro5.jpg": "/static/media/miembro5.d65654d86410afe93012.jpg",
     "static/media/brocha_del_siglo_xxi_1994_libro-b.jpg": "/static/media/brocha_del_siglo_xxi_1994_libro-b.c0b5b5a036fad6f35c5a.jpg",
+    "static/media/revista.png": "/static/media/revista.8ae1234eeec2044ab91f.png",
     "static/media/memoria_embotelladora_andina_2006_libro.jpg": "/static/media/memoria_embotelladora_andina_2006_libro.d35280c310bbb8bea320.jpg",
     "static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.jpg": "/static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.d43d95596159b97e86f1.jpg",
     "static/media/taller_ximena_ulibarri_encargo_interdesign_2015_foto.jpg": "/static/media/taller_ximena_ulibarri_encargo_interdesign_2015_foto.edd4811aac025f4b237e.jpg",
@@ -98,11 +99,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.77f9f094.js.map": "/static/js/main.77f9f094.js.map",
+    "main.2cacf05c.js.map": "/static/js/main.2cacf05c.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.77f9f094.js"
+    "static/js/main.2cacf05c.js"
   ]
 }
