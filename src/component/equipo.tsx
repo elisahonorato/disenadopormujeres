@@ -59,35 +59,43 @@ const teamMembers = [
     bio: 'Diseñadora de la Pontificia Universidad Católica de Chile'
   }
 ];
-
 function Equipo() {
+  // Chunk the teamMembers array into groups of 3
+  const chunkedTeamMembers = [];
+  for (let i = 0; i < teamMembers.length; i += 3) {
+    chunkedTeamMembers.push(teamMembers.slice(i, i + 3));
+  }
+
   return (
     <Container>
-      <Grid container paddingTop={5} paddingX={3} gap={0}>
-      <Typography variant="h1" gutterBottom paddingX={3}>
-        Contáctanos
+      <Box>
+      <Typography variant="h2" gutterBottom paddingX={3} paddingTop={5}>
+        Equipo
       </Typography>
-        {teamMembers.map((member, index) => (
-          <Grid item key={index} xs={12} sm={6} md={3} sx={{ zIndex: 0}} alignContent={'center'} textAlign={'center'}>
-            <Box style={{ textAlign: 'left', width: '100%'}} marginBottom={4}>
-              { member.image && (
-                <ColorFilter image={member.image} alt={member.name} customStyles={{ width: '250px', height: '250px', objectFit: 'cover' }} hover={true} />
-              )
-              }
+      </Box>
 
-              <Typography variant="h5" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>
-                {member.name}
-              </Typography>
-              <Typography variant="h5" color="textSecondary" sx={{my:theme.spacing(1)}}>
-                {member.position}
-              </Typography>
-              <Typography variant="h6" color="textSecondary">
-                {member.bio}
-              </Typography>
-            </Box>
-          </Grid>
-        ))}
-      </Grid>
+      {chunkedTeamMembers.map((group, groupIndex) => (
+        <Grid container paddingTop={5} paddingX={3} gap={0} spacing={6} key={groupIndex}>
+          {group.map((member, index) => (
+            <Grid item key={index} xs={12} sm={6} md={4} sx={{ zIndex: 0 }} alignContent={'center'} textAlign={'center'}>
+              <Box style={{ textAlign: 'left' }} marginBottom={4}>
+                {member.image && (
+                  <ColorFilter image={member.image} alt={member.name} customStyles={{ width: '-webkit-fill-available', maxHeight: '250px' , objectFit: 'cover' }} hover={false} />
+                )}
+                <Typography variant="h5" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>
+                  {member.name}
+                </Typography>
+                <Typography variant="h5" color="textSecondary" sx={{ my: theme.spacing(1) }}>
+                  {member.position}
+                </Typography>
+                <Typography variant="h6" color="textSecondary">
+                  {member.bio}
+                </Typography>
+              </Box>
+            </Grid>
+          ))}
+        </Grid>
+      ))}
     </Container>
   );
 }
