@@ -56,7 +56,7 @@ function Home() {
                 padding: theme.spacing(2),
               }}
             >
-              <Typography variant="h2">
+              <Typography variant="h2" marginTop={4}>
                 Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género
               </Typography>
             </div>

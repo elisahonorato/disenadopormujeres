@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
 import theme from '../theme.tsx';
 import metodology from '../assets/images/metodologia/metodologia.png';
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 
 
 function Metodology() {
@@ -34,8 +35,10 @@ function Metodology() {
             </div>
           </Grid>
 
+          <FaCloudDownloadAlt style={{ fontSize: '2rem', paddingLeft: theme.spacing(2)}} />
 
           </Grid>
+          
         </Grid>
   
     </Container>
