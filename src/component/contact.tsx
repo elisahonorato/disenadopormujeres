@@ -66,7 +66,7 @@ function Contact() {
             <Typography variant="h5" fontWeight="bold">
               Dirección
             </Typography>
-            <Typography variant="h5">Campus Lo Contador. Santiago, Chile</Typography>
+            <Typography variant="h5">Campus Lo Contador. Santiago de Chile</Typography>
           </Box>
 
         </Grid>
