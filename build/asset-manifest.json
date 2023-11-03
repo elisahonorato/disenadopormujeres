@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.124690a4.js",
+    "main.js": "/static/js/main.e2e60eba.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
     "static/media/about_2023.mp4": "/static/media/about_2023.8343dd6d3c31176db7cf.mp4",
+    "static/media/xime.png": "/static/media/xime.dbc6134cdddb416a5a91.png",
     "static/media/miembro7.jpg": "/static/media/miembro7.52d03e461d755887bb86.jpg",
-    "static/media/xime.jpg": "/static/media/xime.0e116480e0e816f9c816.jpg",
     "static/media/miembro5.jpg": "/static/media/miembro5.d65654d86410afe93012.jpg",
     "static/media/brocha_del_siglo_xxi_1994_libro-b.jpg": "/static/media/brocha_del_siglo_xxi_1994_libro-b.c0b5b5a036fad6f35c5a.jpg",
-    "static/media/revista.png": "/static/media/revista.8ae1234eeec2044ab91f.png",
+    "static/media/revista.png": "/static/media/revista.ecf59175eaad39162b06.png",
     "static/media/memoria_embotelladora_andina_2006_libro.jpg": "/static/media/memoria_embotelladora_andina_2006_libro.d35280c310bbb8bea320.jpg",
     "static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.jpg": "/static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.d43d95596159b97e86f1.jpg",
     "static/media/taller_ximena_ulibarri_encargo_interdesign_2015_foto.jpg": "/static/media/taller_ximena_ulibarri_encargo_interdesign_2015_foto.edd4811aac025f4b237e.jpg",
@@ -90,6 +90,7 @@
     "static/media/folletos_de_carrera_VRA-UC_2011_folleto.jpg": "/static/media/folletos_de_carrera_VRA-UC_2011_folleto.a8ac43de8ffbbcbaff3a.jpg",
     "static/media/miembro3.jpg": "/static/media/miembro3.97a1e78ae9336b43fc55.jpg",
     "static/media/miembro4.jpg": "/static/media/miembro4.df7ac87168b241096e31.jpg",
+    "static/media/ministerio.png": "/static/media/ministerio.0bc806f1ef2a4bd5705b.png",
     "static/media/arrasadas_de_luz_2000_libro-b.jpg": "/static/media/arrasadas_de_luz_2000_libro-b.be5b620f6db0cf78ff46.jpg",
     "static/media/logo.png": "/static/media/logo.a9638254dc720da00503.png",
     "static/media/miembro6.jpg": "/static/media/miembro6.d47b3eb03aef933a613a.jpg",
@@ -99,11 +100,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.124690a4.js.map": "/static/js/main.124690a4.js.map",
+    "main.e2e60eba.js.map": "/static/js/main.e2e60eba.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.124690a4.js"
+    "static/js/main.e2e60eba.js"
   ]
 }
