@@ -1,80 +1,64 @@
-import React, { useState, useEffect } from 'react';
-import { Container, Typography, Grid, Paper } from '@mui/material';
-import aboutImage from '../assets/images/home/xime.jpg';
+import React from 'react';
+import { Container, Typography, Box, Grid, useMediaQuery } from '@mui/material';
+import aboutImage from '../assets/images/home/xime.png';
 import revistaImage from '../assets/images/home/revista.png';
-import theme from '../theme.tsx';
+import { purple } from '@mui/material/colors';
 import ColorFilter from './colorfilter.tsx';
 import ColorStain from './colorstain.tsx';
-import { purple } from '@mui/material/colors';
-
-// Definir un tipo personalizado para 'position'
-type Position = 'sticky' | 'absolute';
 
 function Home() {
-  const [positionStyle, setPositionStyle] = useState<Position>('sticky');
-  const [width, setWidth] = useState('100%');
-  const textOverlayStyles = {
-    zIndex: 1,
-    width: width,
-  };
-
-  useEffect(() => {
-    const handleWindowResize = () => {
-      if (window.innerWidth < 600) {
-        setWidth('100%')
-        setPositionStyle('sticky');
-      } else {
-        setPositionStyle('absolute');
-        setWidth('60%');
-      }
-    };
-
-    handleWindowResize();
-
-    window.addEventListener('resize', handleWindowResize);
-
-    return () => {
-      window.removeEventListener('resize', handleWindowResize);
-    };
-  }, []);
+  const isSmallScreen = useMediaQuery('(max-width:600px)');
 
   return (
     <Container maxWidth="xl">
       <ColorStain
         color={purple[600]}
-        marginTop={'90px'}
-        marginLeft={'calc(50% + 20vh)'}
+        marginTop={isSmallScreen ? '50px' : '90px'}
+        marginLeft={isSmallScreen ? '0' : 'calc(50% + 20vh)'}
         zIndex={10000}
       />
-      <Grid container spacing={4} direction='row'> {/* grilla general */}
-        <Grid item xs={12} md={4}> {/* grilla texto */}
-          <Paper elevation={0}>
-            <div
-              style={{
-                ...textOverlayStyles,
-                position: positionStyle,
-                padding: theme.spacing(2),
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={6}>
+          <Box p={2} position="relative" height="100%" display={'flex'} flexDirection={'column'} justifyContent={'space-between'}>
+            <Typography variant="h2" zIndex={100} position={'relative'} width="120%" marginTop={5}>
+              Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género
+            </Typography>
+            <div>
+              <ColorFilter
+              image={revistaImage}
+              alt="Imagen"
+              customStyles={{
+                width: '60%',
+                height: 'auto',
+                float: 'right',
+                marginTop: '20px',
               }}
-            >
-              <Typography variant="h2" marginTop={4}>
-                Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género
-              </Typography>
+              hover={true}
+            />
             </div>
-          </Paper>
+
+          </Box>
+          
         </Grid>
-        {/* Contenedor para las imágenes */}
-        <Grid item xs={12} md={8} container direction="row" alignItems={'self-end'}>
-          <Grid item xs={4}>
-            <ColorFilter image={revistaImage} alt='Ximena Ulibarri' customStyles={{ width: '140%', height: 'auto', objectFit: 'cover' }} hover={false} />
-          </Grid>
-          <Grid item xs={7}>
-            <ColorFilter image={aboutImage} alt='Revista' customStyles={{ width: '110%', height: 'inherit', objectFit: 'cover' }} hover={false} />
-          </Grid>
+        <Grid item xs={12} sm={6}>
+          <ColorFilter
+            image={aboutImage}
+            alt="Imagen"
+            customStyles={{
+              width: '95%',
+              height: 'auto',
+              marginBottom: isSmallScreen ? '20px' : '0',
+            }}
+            hover={true}
+          />
+          
         </Grid>
+      </Grid>
+      <Grid item xs={12}>
+        
       </Grid>
     </Container>
   );
 }
 
 export default Home;
-

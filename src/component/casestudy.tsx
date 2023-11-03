@@ -112,14 +112,10 @@ function CaseStudy() {
               {folder === 'imagenes-personales' && (
                 <Box>
                   <Typography variant="h2" style={{ marginBottom: theme.spacing(1), marginTop: theme.spacing(5), paddingTop: theme.spacing(5) }}>
-                    Imágenes Personales
+                  Diseño en Chile, diseñado por sus Pioneras.
                   </Typography>
                   <Grid container spacing={4} pt={3}>
                     <Grid item xs={12} md={6}>
-                      <Typography variant="h4" style={{ marginBottom: theme.spacing(1), fontWeight: 'bold' }}>
-                        Diseño en Chile, diseñado por sus Pioneras.
-
-                      </Typography>
                       {imagenesPersonalesContent.slice(0, imagenesPersonalesContent.length / 2).map((paragraph, index) => (
                         <Typography key={index} variant="h4" style={{ marginBottom: theme.spacing(1) }}>
                           {paragraph}

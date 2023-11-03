@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
-import aboutImage from '../assets/images/home/xime.jpg';
+import aboutImage from '../assets/images/home/xime.png';
 import ColorFilter from './colorfilter.tsx';
 import ColorStain from './colorstain.tsx';
 import { purple } from '@mui/material/colors';

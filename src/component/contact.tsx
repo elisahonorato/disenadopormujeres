@@ -3,7 +3,7 @@ import { Typography, Box, Container, Grid, Paper, Link } from '@mui/material';
 import { purple } from '@mui/material/colors';
 import ColorStain from './colorstain.tsx';
 import ColorFilter from './colorfilter.tsx';
-import aboutImage from '../assets/images/home/xime.jpg';
+import aboutImage from '../assets/images/home/xime.png';
 import theme from '../theme.tsx';
 
 function Contact() {
