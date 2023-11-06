@@ -166,7 +166,7 @@ function CaseStudy() {
                           style={{
                             width: `${maxWidthImg}px`, // Utiliza el valor numérico con 'px'
                             maxHeight: `${maxWidthImg * 1.5}px`,
-                            objectFit: 'cover',
+                            objectFit: 'contain',
                             alignSelf: 'flex-start',
                             marginBottom: theme.spacing(2),
                             marginTop: theme.spacing(5),
