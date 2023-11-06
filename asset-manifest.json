@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.43c518ed.css",
-    "main.js": "/static/js/main.e2e60eba.js",
+    "main.js": "/static/js/main.8082c734.js",
     "static/js/787.5d99cc3b.chunk.js": "/static/js/787.5d99cc3b.chunk.js",
     "static/media/about_2023.mp4": "/static/media/about_2023.8343dd6d3c31176db7cf.mp4",
-    "static/media/xime.png": "/static/media/xime.dbc6134cdddb416a5a91.png",
+    "static/media/xime.png": "/static/media/xime.44561ba35f0ed23a7c09.png",
     "static/media/miembro7.jpg": "/static/media/miembro7.52d03e461d755887bb86.jpg",
     "static/media/miembro5.jpg": "/static/media/miembro5.d65654d86410afe93012.jpg",
     "static/media/brocha_del_siglo_xxi_1994_libro-b.jpg": "/static/media/brocha_del_siglo_xxi_1994_libro-b.c0b5b5a036fad6f35c5a.jpg",
@@ -100,11 +100,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.43c518ed.css.map": "/static/css/main.43c518ed.css.map",
-    "main.e2e60eba.js.map": "/static/js/main.e2e60eba.js.map",
+    "main.8082c734.js.map": "/static/js/main.8082c734.js.map",
     "787.5d99cc3b.chunk.js.map": "/static/js/787.5d99cc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43c518ed.css",
-    "static/js/main.e2e60eba.js"
+    "static/js/main.8082c734.js"
   ]
 }
