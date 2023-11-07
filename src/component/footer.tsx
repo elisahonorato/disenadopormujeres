@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Grid, Link } from '@mui/material';
+import { Box, Typography, Link } from '@mui/material';
 import theme from '../theme.tsx';
 import logoMinisterio from '../assets/images/footer/ministerio.png';
 
