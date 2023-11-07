@@ -43,7 +43,7 @@ function Home() {
         <Grid item xs={12} sm={6}>
           <ColorFilter
             image={aboutImage}
-            alt="Imagen"
+            alt="Ximena"
             customStyles={{
               width: '95%',
               height: 'auto',
