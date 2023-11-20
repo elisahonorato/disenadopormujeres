@@ -21,24 +21,24 @@ function Home() {
         <Grid item xs={12} sm={6}>
           <Box p={2} position="relative" height="100%" display={'flex'} flexDirection={'column'} justifyContent={'space-between'}>
             <Typography variant="h2" zIndex={100} position={'relative'} width="120%" marginTop={5}>
-              Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género
+              Diseñado por Mujeres es un proyecto de investigación sobre mujeres pioneras del Diseño en Chile, a nivel de prácticas y discursos, para la construcción de un entorno disciplinar con equidad de género.
             </Typography>
             <div>
               <ColorFilter
-              image={revistaImage}
-              alt="Imagen"
-              customStyles={{
-                width: '60%',
-                height: 'auto',
-                float: 'right',
-                marginTop: '20px',
-              }}
-              hover={true}
-            />
+                image={revistaImage}
+                alt="Imagen"
+                customStyles={{
+                  width: '60%',
+                  height: 'auto',
+                  float: 'right',
+                  marginTop: '20px',
+                }}
+                hover={true}
+              />
             </div>
 
           </Box>
-          
+
         </Grid>
         <Grid item xs={12} sm={6}>
           <ColorFilter
@@ -51,11 +51,11 @@ function Home() {
             }}
             hover={true}
           />
-          
+
         </Grid>
       </Grid>
       <Grid item xs={12}>
-        
+
       </Grid>
     </Container>
   );

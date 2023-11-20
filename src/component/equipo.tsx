@@ -8,6 +8,7 @@ import miembro6 from '../assets/images/equipo/miembro6.jpg';
 import miembro7 from '../assets/images/equipo/miembro7.jpg';
 import theme from '../theme.tsx';
 import ColorFilter from './colorfilter.tsx';
+let objecto = '10% 40%'
 
 const teamMembers = [
   {
@@ -79,7 +80,7 @@ function Equipo() {
           {groupIndex === chunkedTeamMembers.length - 1 && (
             <Typography variant="h2" gutterBottom paddingTop={5} paddingBottom={2}>
               Colaboradoras
-              </Typography>
+            </Typography>
           )}
           <Grid container paddingTop={2} spacing={6} paddingBottom={2}>
             {group.map((member, index) => (
@@ -94,14 +95,41 @@ function Equipo() {
                 textAlign={'center'}
               >
                 <Box style={{ textAlign: 'left' }} marginBottom={4}>
-                  {member.image && (
+                  {/* Utiliza el operador ternario para realizar la asignación condicional */}
+                  {member.image && member.name === "Pablo Hermansen" && (
                     <ColorFilter
                       image={member.image}
                       alt={member.name}
-                      customStyles={{ width: '-webkit-fill-available', height: '250px', objectFit: 'cover', objectPosition: '10% 40%', }}
+                      customStyles={{ width: '-webkit-fill-available', height: '250px', objectFit: 'cover', objectPosition: "40% 16%" }}
                       hover={false}
                     />
                   )}
+                  {member.image && member.name === "Sara Riveros" && (
+                    <ColorFilter
+                      image={member.image}
+                      alt={member.name}
+                      customStyles={{ width: '-webkit-fill-available', height: '250px', objectFit: 'cover', objectPosition: "40% 16%" }}
+                      hover={false}
+                    />
+                  )}
+                  {member.image && member.name === "Jose Guerra" && (
+                    <ColorFilter
+                      image={member.image}
+                      alt={member.name}
+                      customStyles={{ width: '-webkit-fill-available', height: '250px', objectFit: 'cover', objectPosition: "100% 70%" }}
+                      hover={false}
+                    />
+                  )}
+                  {member.image && member.name !== "Pablo Hermansen" && member.name !== "Jose Guerra" &&  member.name !== "Sara Riveros" && (
+                    <ColorFilter
+                      image={member.image}
+                      alt={member.name}
+                      customStyles={{ width: '-webkit-fill-available', height: '250px', objectFit: 'cover', objectPosition: "10% 40%" }}
+                      hover={false}
+                    />
+                  )}
+
+
                   <Typography variant="h5" sx={{ paddingTop: theme.spacing(3), lineHeight: theme.spacing(2) }}>
                     {member.name}
                   </Typography>
@@ -112,6 +140,8 @@ function Equipo() {
                     {member.bio}
                   </Typography>
                 </Box>
+
+
               </Grid>
             ))}
           </Grid>

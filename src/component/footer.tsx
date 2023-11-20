@@ -32,7 +32,7 @@ function Footer() {
             </Link>
           </Typography>
           <Typography variant="h4" sx={{ flexBasis: '30%'}}>
-          Proyecto financiado por por el Fondo Nacional de Desarrollo Cultural y las Artes, convocatoria 2022
+          Proyecto financiado por el Fondo Nacional de Desarrollo Cultural y las Artes, convocatoria 2022.
           </Typography>
 
         </Box>

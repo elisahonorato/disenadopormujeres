@@ -1,51 +1,51 @@
 const caseStudies = [
     // 1970-1980
-    {
+    {//1
         folder: '1970-1980',
         image: "el_burlador_sevilla_1976 _afiche.jpg",
         titulo: 'El burlador de Sevilla y convidado de piedra',
-        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Omar Faúndez', año: '1976', archivo: 'Ximena Ulibarri'
     },
 
-    {
+    {//2
         folder: "1970-1980",
         image: "feria_artesania_1979_afiche.jpg",
         titulo: '2ª Feria Internacional de Artesanía Tradicional',
-        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1979', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Omar Faúndez', año: '1979', archivo: 'Ximena Ulibarri'
     },
 
     // 1980-1990
-    {
+    {//3
         folder: "1980-1990",
         image: "6ta_feria_artesania_1983_afiche.jpg",
         titulo: '6ª Feria Internacional de Artesanía Tradicional',
-        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1983', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Omar Faúndez', año: '1983', archivo: 'Ximena Ulibarri'
     },
-    {
+    {//4
         folder: "1980-1990",
         image: "concurso_investigacion_1980_afiche.jpg",
         titulo: 'Concurso de Investigación 1980',
-        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1980', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Omar Faúndez', año: '1980', archivo: 'Ximena Ulibarri'
     },
-    {
+    {//5
         folder: "1980-1990",
         image: "islas_oceanicas_chilenas-algas_marinas_de_chile_1989_libros.jpg",
         titulo: 'Islas Oceánicas Chilenas y Algas Marinas de Chile',
-        formato: 'Libros', autora: 'Ximena Ulibarri', año: '1989', archivo: 'Ximena Ulibarri'
+        formato: 'Libros', autora: 'Desconocido', año: '1989', archivo: 'Ximena Ulibarri'
     },
-    {
+    {//6
         folder: "1980-1990",
         image: "revista_universitaria_1985-1987_libros.jpg",
         titulo: 'Revista Universitaria (5 ejemplares)',
-        formato: 'Libros', autora: 'Ximena Ulibarri', año: '1985 a 1987', archivo: 'Ximena Ulibarri'
+        formato: 'Libros', autora: 'Omar Faúndez', año: '1985 a 1987', archivo: 'Ximena Ulibarri'
     },
-    {
+    {//7
         folder: "1980-1990",
         image: "shell_70_anos_1989_libro.jpg",
         titulo: 'Libro Shell 70 años',
-        formato: 'Libros', autora: 'Ximena Ulibarri', año: '1989', archivo: 'Ximena Ulibarri'
+        formato: 'Libros', autora: 'Archivo Chile Diseño', año: '1989', archivo: 'Ximena Ulibarri'
     },
-    {
+    {//8
         folder: "1980-1990",
         image: "testa_un_arqui-artista_1985_afiche.jpg",
         titulo: 'Clorindo Testa, un arqui-artista',
@@ -53,48 +53,48 @@ const caseStudies = [
     },
 
     // 1990-2000
-    {
+    {//9
         folder: "1990-2000",
         image: "arrasadas_de_luz_2000_libro-a.jpg",
         titulo: 'Arrasadas de Luz, Luis Poirot',
         formato: 'libro', autora: 'Ximena Ulibarri', año: '2000', archivo: 'Ximena Ulibarri'
     },
 
-    {
+    {//10
         folder: "1990-2000",
         image: "arrasadas_de_luz_2000_libro-b.jpg",
         titulo: 'Arrasadas de Luz, Luis Poirot',
-        formato: 'libro', autora: 'Ximena Ulibarri', año: '2000', archivo: 'Ximena Ulibarri'
+        formato: 'libro', autora: 'Omar Faúndez', año: '2000', archivo: 'Ximena Ulibarri'
     },
 
-    {
+    {//11
         folder: "1990-2000",
         image: "arte_contemporaneo_2015_libro.jpg",
         titulo: 'Ver para Entender el Arte Contemporáneo, Sylvia Ready y Bárbara Becker',
         formato: 'libro',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '2015',
         archivo: 'Ximena Ulibarri'
     },
-    {
+    {//12
         folder: "1990-2000",
         image: "brocha_del_siglo_xxi_1994_libro-a.jpg",
         titulo: 'Brocha del Siglo XXI',
         formato: 'libro',
-        autora: 'Ximena Ulibarri',
+        autora: 'Desconocido',
         año: '1994',
         archivo: 'Ximena Ulibarri'
     },
-    {
+    {//13
         folder: "1990-2000",
         image: "catalogos_libros_para_galeria_gabriela_mistral_1995_libro.jpg",
         titulo: 'Catálogo y libro para Galería Gabriela Mistral',
         formato: 'libros',
-        autora: 'Ximena Ulibarri',
+        autora: 'Desconocido',
         año: '1995',
         archivo: 'Ximena Ulibarri'
     },
-    {
+    {//14
         folder: "1990-2000",
         image: "coca-cola_50_anos_1991_libro.jpg",
         titulo: 'Coca Cola, 50 años',
