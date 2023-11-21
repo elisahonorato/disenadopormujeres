@@ -116,7 +116,7 @@ function Equipo() {
                     <ColorFilter
                       image={member.image}
                       alt={member.name}
-                      customStyles={{ width: '-webkit-fill-available', height: '250px', objectFit: 'cover', objectPosition: "100% 70%" }}
+                      customStyles={{ width: '-webkit-fill-available', height: '250px', objectFit: 'cover', objectPosition: "40% 16%" }}
                       hover={false}
                     />
                   )}

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Typography, Grid, Fade, Box } from '@mui/material';
 import caseStudies from './caseStudies.tsx';
+import { FaCloudDownloadAlt } from 'react-icons/fa';
+import pdf from '../assets/pdf/PostalesDpM.pdf'
 
 import theme from '../theme.tsx';
 import { Divider } from '@mui/material';
@@ -40,13 +42,38 @@ function CaseStudy() {
     }
     caseStudiesByFolder[study.folder].push(study);
   });
+  const onButtonClick = () => {
+    console.log("Descargando pdf")
+    const pdfUrl = pdf;
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "PostalesDpM.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+
+  }
 
   return (
     <Container maxWidth="xl" style={{ backgroundColor: '#FFFFFF', paddingBottom: theme.spacing(3) }} >
       <Grid container spacing={4} pt={3}>
         <Grid item xs={12} md={12}>
-          <Typography variant="h2" marginTop={theme.spacing(4)} paragraph>Trayectorias</Typography>
+            <Box justifyContent={'space-between'} display={'flex'} >
+                <Typography variant="h2" marginTop={theme.spacing(4)} paragraph>Trayectorias</Typography>
+                <Box onClick={onButtonClick} display={'flex'} alignItems={'center'} gap={'0.5rem'}  >
+                    <FaCloudDownloadAlt style={{ fontSize: '1.8rem', paddingLeft: theme.spacing(2) }} />
+                    <Typography variant="h6">
+                    Descargar Postales
+                    </Typography>
+
+                </Box>
+
+            </Box>
+          
+          
         </Grid>
+
         {/* Columna Izquierda */}
         <Grid item xs={12} md={6}>
           <Typography variant="h4" paragraph >
@@ -180,7 +207,7 @@ function CaseStudy() {
 
                           </Typography>
                           <Typography variant="h5">
-                            {study.autora === "Omar Faúndez" || study.autora === "Archivo Chile Diseño" ? "Autor" : "Autora"}: {study.autora || "Desconocido"}
+                            {study.autora === "Omar Faúndez" || study.autora === "Archivo Chile Diseño" || study.autora === "Desconocido" || study.autora === "Ximena Ulibarri y estudiante de diseño" ? "Autor" : "Autora"}: {study.autora || "Desconocido"}
                           </Typography>
 
 

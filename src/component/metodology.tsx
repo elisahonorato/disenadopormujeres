@@ -3,7 +3,7 @@ import { Container, Typography, Grid } from '@mui/material';
 import theme from '../theme.tsx';
 import metodology from '../assets/images/metodologia/metodologia.png';
 import { FaCloudDownloadAlt } from 'react-icons/fa';
-import pdf from '../assets/pdf/pdf_.pdf';
+import pdf from '../assets/pdf/ToolkitDpM.pdf'
 
 
 
@@ -15,7 +15,7 @@ function Metodology() {
     const pdfUrl = pdf;
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "metodologia.pdf"; // specify the filename
+    link.download = "ToolkitDpM.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -50,9 +50,18 @@ function Metodology() {
             <div style={{ backgroundColor: theme.palette.primary.main, zIndex: 2 }}>
               <img src={metodology} alt='metodology' style={{ width: '100%', zIndex: 3 }} />
 
+
             </div>
           </Grid>
-          <FaCloudDownloadAlt style={{ fontSize: '2rem', paddingLeft: theme.spacing(2) }} onClick={onButtonClick} />
+          <Grid item xs={12} display={'flex'} alignItems={'center'} gap={'0.5rem'}  onClick={onButtonClick} paddingBottom={'20px'} >
+            <FaCloudDownloadAlt style={{ fontSize: '1.8rem', paddingLeft: theme.spacing(2) }} />
+            <Typography variant="h6">
+              Descargar Toolkit
+            </Typography>
+
+          </Grid>
+
+         
         </Grid>
 
       </Grid>

@@ -4,14 +4,14 @@ const caseStudies = [
         folder: '1970-1980',
         image: "el_burlador_sevilla_1976 _afiche.jpg",
         titulo: 'El burlador de Sevilla y convidado de piedra',
-        formato: 'Afiche', autora: 'Omar Faúndez', año: '1976', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1976', archivo: 'Ximena Ulibarri'
     },
 
     {//2
         folder: "1970-1980",
         image: "feria_artesania_1979_afiche.jpg",
         titulo: '2ª Feria Internacional de Artesanía Tradicional',
-        formato: 'Afiche', autora: 'Omar Faúndez', año: '1979', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1979', archivo: 'Ximena Ulibarri'
     },
 
     // 1980-1990
@@ -19,31 +19,31 @@ const caseStudies = [
         folder: "1980-1990",
         image: "6ta_feria_artesania_1983_afiche.jpg",
         titulo: '6ª Feria Internacional de Artesanía Tradicional',
-        formato: 'Afiche', autora: 'Omar Faúndez', año: '1983', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1983', archivo: 'Ximena Ulibarri'
     },
     {//4
         folder: "1980-1990",
         image: "concurso_investigacion_1980_afiche.jpg",
         titulo: 'Concurso de Investigación 1980',
-        formato: 'Afiche', autora: 'Omar Faúndez', año: '1980', archivo: 'Ximena Ulibarri'
+        formato: 'Afiche', autora: 'Ximena Ulibarri', año: '1980', archivo: 'Ximena Ulibarri'
     },
     {//5
         folder: "1980-1990",
         image: "islas_oceanicas_chilenas-algas_marinas_de_chile_1989_libros.jpg",
         titulo: 'Islas Oceánicas Chilenas y Algas Marinas de Chile',
-        formato: 'Libros', autora: 'Desconocido', año: '1989', archivo: 'Ximena Ulibarri'
+        formato: 'Libros', autora: 'Ximena Ulibarri', año: '1989', archivo: 'Ximena Ulibarri'
     },
     {//6
         folder: "1980-1990",
         image: "revista_universitaria_1985-1987_libros.jpg",
         titulo: 'Revista Universitaria (5 ejemplares)',
-        formato: 'Libros', autora: 'Omar Faúndez', año: '1985 a 1987', archivo: 'Ximena Ulibarri'
+        formato: 'Libros', autora: 'Ximena Ulibarri', año: '1985 a 1987', archivo: 'Ximena Ulibarri'
     },
     {//7
         folder: "1980-1990",
         image: "shell_70_anos_1989_libro.jpg",
         titulo: 'Libro Shell 70 años',
-        formato: 'Libros', autora: 'Archivo Chile Diseño', año: '1989', archivo: 'Ximena Ulibarri'
+        formato: 'Libros', autora: 'Ximena Ulibarri', año: '1989', archivo: 'Ximena Ulibarri'
     },
     {//8
         folder: "1980-1990",
@@ -64,7 +64,7 @@ const caseStudies = [
         folder: "1990-2000",
         image: "arrasadas_de_luz_2000_libro-b.jpg",
         titulo: 'Arrasadas de Luz, Luis Poirot',
-        formato: 'libro', autora: 'Omar Faúndez', año: '2000', archivo: 'Ximena Ulibarri'
+        formato: 'libro', autora: 'Ximena Ulibarri', año: '2000', archivo: 'Ximena Ulibarri'
     },
 
     {//11
@@ -72,7 +72,7 @@ const caseStudies = [
         image: "arte_contemporaneo_2015_libro.jpg",
         titulo: 'Ver para Entender el Arte Contemporáneo, Sylvia Ready y Bárbara Becker',
         formato: 'libro',
-        autora: 'Omar Faúndez',
+        autora: 'Ximena Ulibarri',
         año: '2015',
         archivo: 'Ximena Ulibarri'
     },
@@ -81,7 +81,7 @@ const caseStudies = [
         image: "brocha_del_siglo_xxi_1994_libro-a.jpg",
         titulo: 'Brocha del Siglo XXI',
         formato: 'libro',
-        autora: 'Desconocido',
+        autora: 'Ximena Ulibarri',
         año: '1994',
         archivo: 'Ximena Ulibarri'
     },
@@ -90,7 +90,7 @@ const caseStudies = [
         image: "catalogos_libros_para_galeria_gabriela_mistral_1995_libro.jpg",
         titulo: 'Catálogo y libro para Galería Gabriela Mistral',
         formato: 'libros',
-        autora: 'Desconocido',
+        autora: 'Ximena Ulibarri',
         año: '1995',
         archivo: 'Ximena Ulibarri'
     },
@@ -427,7 +427,7 @@ const caseStudies = [
         image: "la_casa_de_granada_2018_folleto.jpg",
         titulo: 'La Casa de Granada',
         formato: 'folleto',
-        autora: 'Ximena Ulibarri y ALUMNA DE DISEÑO',
+        autora: 'Ximena Ulibarri y estudiante de diseño',
         año: '2018',
         archivo: 'Ximena Ulibarri'
     },
@@ -554,7 +554,7 @@ const caseStudies = [
         image: "equipo_publicidad_universitaria_1985_foto.jpg",
         titulo: 'Equipo Publicidad Universitaria 1985',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '1985',
         archivo: 'Ximena Ulibarri'
     },
@@ -563,7 +563,7 @@ const caseStudies = [
         image: "equipo_publicidad_universitaria_1992_foto.jpg",
         titulo: 'Equipo Publicidad Universitaria 1992',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '1992',
         archivo: 'Ximena Ulibarri'
     },
@@ -572,7 +572,7 @@ const caseStudies = [
         image: "equipo_publicidad_universitaria_1995_foto.jpg",
         titulo: 'Equipo Publicidad Universitaria 1995',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '1995',
         archivo: 'Ximena Ulibarri'
     },
@@ -581,7 +581,7 @@ const caseStudies = [
         image: "equipo_publicidad_universitaria_2003_foto.jpg",
         titulo: 'Equipo Publicidad Universitaria 2003',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '2003',
         archivo: 'Ximena Ulibarri'
     },
@@ -590,7 +590,7 @@ const caseStudies = [
         image: "estudiantes_promocion_escuela-de-arte-uc_1966_foto.jpg",
         titulo: 'Estudiantes de Promoción de Escuela de Arte PUC',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Desconocido',
         año: '1966',
         archivo: 'María Elena Farías'
     },
@@ -599,7 +599,7 @@ const caseStudies = [
         image: "maestras_y_maestros_del_diseno_en_latino_america_ximena_ulibarri_2021_foto.jpg",
         titulo: 'Maestras y Maestros del Diseño en Latino América',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '2021',
         archivo: 'Ximena Ulibarri'
     },
@@ -608,7 +608,7 @@ const caseStudies = [
         image: "premio_a_la_trayectoria_2017_foto.jpg",
         titulo: 'Premio a la Trayectoria Chile Diseño 2017',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Archivo Chile Diseño',
         año: '2017',
         archivo: 'Ximena Ulibarri'
     },
@@ -635,7 +635,7 @@ const caseStudies = [
         image: "taller_ximena_ulibarri_encargo_interdesign_2015_foto.jpg",
         titulo: 'Taller de Ximena Ulibarri, Trabajo para Interdesign/Juana Díaz',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '2015',
         archivo: 'Ximena Ulibarri'
     },
@@ -644,7 +644,7 @@ const caseStudies = [
         image: "ximena_oficina_publicidad_universitaria_2005_foto.jpg",
         titulo: 'Ximena en Oficina de Publicidad Universitaria',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Omar Faúndez',
         año: '2005',
         archivo: 'Ximena Ulibarri'
     },
@@ -653,7 +653,7 @@ const caseStudies = [
         image: "ximena_ulibarri_celebracion_taller_diseno_grafico_1966_foto.jpg",
         titulo: 'Ximena Ulibarri en Celebración de Taller de Diseño Gráfico',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Desconocido',
         año: '1966',
         archivo: 'Archivo Luis Moreno'
     },
@@ -662,7 +662,7 @@ const caseStudies = [
         image: "ximena_ulibarri_publicidad_universitaria_1978_foto.jpg",
         titulo: 'Ximena Ulibarri Publicidad Universitaria',
         formato: 'Fotografía',
-        autora: 'Ximena Ulibarri',
+        autora: 'Desconocido',
         año: '1978',
         archivo: 'Ximena Ulibarri'
     }
