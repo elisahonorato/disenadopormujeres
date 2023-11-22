@@ -19,35 +19,7 @@ root.render(
     <React.StrictMode>
         <BrowserRouter>
             <ThemeProvider theme={theme}>
-                <CssBaseline />
-                <Container
-                    sx={{
-                        minWidth: '100%',
-                        maxWidth: '100%',
-                        display: 'flex',
-                        backgroundColor: theme.palette.primary.main,
-                    }}
-                >
-                    <Box
-                        sx={{
-                            backgroundColor: theme.palette.primary.main,
-                            borderRight: `1.5px solid ${theme.palette.primary.light}`,
-                            flexDirection: { xs: 'column', md: 'row' },
-                            alignItems: 'center',
-                        }}
-                    >
-                        <VerticalNavbar navbarSize={'80px'} />
-                    </Box>
-                    <Box>
-                        <Box>
-                            <Navbar borderStyle={`1.5px solid ${theme.palette.primary.light}`} theme={theme} />
-                        </Box>
-                        <App />
-                        <Box>
-                            <Footer />
-                        </Box>
-                    </Box>
-                </Container>
+                <App />
             </ThemeProvider>
         </BrowserRouter>
     </React.StrictMode>
