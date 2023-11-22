@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b24e3786.css",
-    "main.js": "/static/js/main.bb35f9b9.js",
+    "main.js": "/static/js/main.ac891d88.js",
     "static/js/787.003e9379.chunk.js": "/static/js/787.003e9379.chunk.js",
     "static/media/PostalesDpM.pdf": "/static/media/PostalesDpM.cb76f21d36a43c6ed7a7.pdf",
     "static/media/about_2023.mp4": "/static/media/about_2023.8343dd6d3c31176db7cf.mp4",
@@ -102,11 +102,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.b24e3786.css.map": "/static/css/main.b24e3786.css.map",
-    "main.bb35f9b9.js.map": "/static/js/main.bb35f9b9.js.map",
+    "main.ac891d88.js.map": "/static/js/main.ac891d88.js.map",
     "787.003e9379.chunk.js.map": "/static/js/787.003e9379.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b24e3786.css",
-    "static/js/main.bb35f9b9.js"
+    "static/js/main.ac891d88.js"
   ]
 }
