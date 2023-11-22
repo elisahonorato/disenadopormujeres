@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b24e3786.css",
-    "main.js": "/static/js/main.77fedd49.js",
+    "main.js": "/static/js/main.4f85000b.js",
     "static/js/787.003e9379.chunk.js": "/static/js/787.003e9379.chunk.js",
     "static/media/PostalesDpM.pdf": "/static/media/PostalesDpM.cb76f21d36a43c6ed7a7.pdf",
     "static/media/about_2023.mp4": "/static/media/about_2023.8343dd6d3c31176db7cf.mp4",
@@ -87,22 +87,26 @@
     "static/media/qvid_2003_libro.jpg": "/static/media/qvid_2003_libro.71400c56c35ce3332930.jpg",
     "static/media/concurso_investigacion_1980_afiche.jpg": "/static/media/concurso_investigacion_1980_afiche.f93dfe4447e22ebcbe5e.jpg",
     "static/media/memoria_concha_y_toro_2005_libro.jpg": "/static/media/memoria_concha_y_toro_2005_libro.5c0e8f3979601a5a8192.jpg",
+    "static/media/small_logo.png": "/static/media/small_logo.8623871080d3f71b17dc.png",
     "static/media/premio_a_la_trayectoria_2017_foto.jpg": "/static/media/premio_a_la_trayectoria_2017_foto.0764404074accc796487.jpg",
     "static/media/coleccion_ediciones_uc_1995-1998_libro.jpg": "/static/media/coleccion_ediciones_uc_1995-1998_libro.991af47497a2de5d0211.jpg",
     "static/media/miembro3.jpg": "/static/media/miembro3.edd7e92ab19e504a768f.jpg",
     "static/media/palacios_al_norte_de_la_alameda_2012_libro-b.jpg": "/static/media/palacios_al_norte_de_la_alameda_2012_libro-b.0ce8319c2a2df61df48a.jpg",
     "static/media/folletos_de_carrera_VRA-UC_2011_folleto.jpg": "/static/media/folletos_de_carrera_VRA-UC_2011_folleto.a8ac43de8ffbbcbaff3a.jpg",
+    "static/media/ministerio.png": "/static/media/ministerio.0bc806f1ef2a4bd5705b.png",
     "static/media/arrasadas_de_luz_2000_libro-b.jpg": "/static/media/arrasadas_de_luz_2000_libro-b.be5b620f6db0cf78ff46.jpg",
+    "static/media/logo.png": "/static/media/logo.a9638254dc720da00503.png",
     "static/media/vidrio.png": "/static/media/vidrio.b56f5036f49f29dc709f.png",
     "static/media/UniversLTStd-Bold.otf": "/static/media/UniversLTStd-Bold.8d6e7b74d50d83677d98.otf",
     "static/media/UniversLTStd-Cn.otf": "/static/media/UniversLTStd-Cn.ed864895e7fb8c70ebae.otf",
+    "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.b24e3786.css.map": "/static/css/main.b24e3786.css.map",
-    "main.77fedd49.js.map": "/static/js/main.77fedd49.js.map",
+    "main.4f85000b.js.map": "/static/js/main.4f85000b.js.map",
     "787.003e9379.chunk.js.map": "/static/js/787.003e9379.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b24e3786.css",
-    "static/js/main.77fedd49.js"
+    "static/js/main.4f85000b.js"
   ]
 }
