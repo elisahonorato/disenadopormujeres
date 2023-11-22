@@ -39,13 +39,9 @@ root.render(
                         <VerticalNavbar navbarSize={'80px'} />
                     </Box>
                     <Box>
-                        <Box>
-                            <Navbar borderStyle={`1.5px solid ${theme.palette.primary.light}`} theme={theme} />
-                        </Box>
+                        <Navbar borderStyle={`1.5px solid ${theme.palette.primary.light}`} theme={theme} />
                         <App />
-                        <Box>
-                            <Footer />
-                        </Box>
+                        <Footer />
                     </Box>
                 </Container>
             </ThemeProvider>
