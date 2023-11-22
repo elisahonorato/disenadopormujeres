@@ -13,7 +13,6 @@ function Contact() {
     fontSize: '2.5rem',
   };
 
-
   const infoItemStyle = {
     marginBottom: theme.spacing(2),
   };
