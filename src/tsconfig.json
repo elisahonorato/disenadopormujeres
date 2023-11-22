@@ -1,16 +1,24 @@
 {
     "compilerOptions": {
-      "allowImportingTsExtensions": true,
-      "emitDeclarationOnly": true,
-      "composite": true,
-      "noEmit": false,
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
       "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
       "jsx": "react",
-      "baseUrl": "./",
+      "declaration": true,
+      "sourceMap": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "baseUrl": "./src",
       "paths": {
-        "*": ["src/*"]
+        "@components/*": ["components/*"],
+        "@src/*": ["*"]
       }
     },
-    // ...
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"]
   }
   
