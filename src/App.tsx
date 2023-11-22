@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './component/navbar.tsx';
 import Home from './component/home.tsx';
 import About from './component/about.tsx';
@@ -19,48 +20,19 @@ import { purple } from '@mui/material/colors';
 
 
 function App() {
-  console.log('App');
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Router>
-        <Container
-          sx={{
-            minWidth: '100%',
-            maxWidth: '100%',
-        
-            display: 'flex',
-            backgroundColor: theme.palette.primary.main,
-          }}
-        >
-          <Box
-            sx={{
-              backgroundColor: theme.palette.primary.main,
-              borderRight: `1.5px solid ${theme.palette.primary.light}`,
-              flexDirection: { xs: 'column', md: 'row' },
-              alignItems: 'center',
-            }}
-          >
-            <VerticalNavbar navbarSize={'80px'} />
-          </Box>
-          <Box>
-            <Navbar borderStyle={`1.5px solid ${theme.palette.primary.light}`} />
-            {/* Rutas */}
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/home" element={<Home />} />
-              <Route path="/about" element={<About theme={theme} />} />
-              <Route path="/equipo" element={<Equipo />} />
-              <Route path="/casestudy" element={<CaseStudy />} />
-              <Route path="/metodology" element={<Metodology />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-            <Footer />
-          </Box>
-        </Container>
-      </Router>
-    </ThemeProvider>
-  );
+    console.log('App');
+    return (
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About theme={theme} />} />
+            <Route path="/equipo" element={<Equipo />} />
+            <Route path="/casestudy" element={<CaseStudy />} />
+            <Route path="/metodology" element={<Metodology />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+    );
 }
 
 export default App;

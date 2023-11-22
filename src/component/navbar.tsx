@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Box, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../logo.png';
-import theme from '../theme.tsx';
 import logoSmall from '../assets/navbar/small_logo.png';
+import theme from '../theme';
 
 const headerItems = [
   { label: 'Del Proyecto', href: '/about' },
@@ -13,7 +13,11 @@ const headerItems = [
   { label: 'Caso de Estudio', href: '/casestudy' },
 ];
 
-function Navbar({ borderStyle }) {
+interface NavbarProps {
+    theme: typeof theme;
+    borderStyle: string;
+    }
+function Navbar({ borderStyle, theme }: NavbarProps) {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 600);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
