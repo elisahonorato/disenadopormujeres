@@ -5,7 +5,6 @@ import App from './App.tsx';
 import reportWebVitals from './reportWebVitals.ts';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider, CssBaseline, Box, Container } from '@mui/material';
-
 import theme from './theme.tsx';
 import VerticalNavbar from './component/verticalnavbar.tsx'
 import Navbar from './component/navbar.tsx'
