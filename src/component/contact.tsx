@@ -12,7 +12,6 @@ function Contact() {
   const headingStyle = {
     fontSize: '2.5rem',
   };
-
   const infoItemStyle = {
     marginBottom: theme.spacing(2),
   };
