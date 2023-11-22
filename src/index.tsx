@@ -10,7 +10,6 @@ import theme from './theme.tsx';
 import VerticalNavbar from './component/verticalnavbar.tsx'
 import Navbar from './component/navbar.tsx'
 import Footer from './component/footer.tsx';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
