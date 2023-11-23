@@ -3,7 +3,7 @@ import { Typography, Box, Container, Grid, Paper, Link } from '@mui/material';
 import { purple } from '@mui/material/colors';
 import ColorStain from './colorstain.tsx';
 import ColorFilter from './colorfilter.tsx';
-import aboutImage from '../assets/images/home/xime.png';
+import aboutImage from '../assets/images/contact/contact.jpg';
 import theme from '../theme.tsx';
 
 function Contact() {
@@ -26,12 +26,7 @@ function Contact() {
             marginLeft={'calc(50% + 20vh)'}
             zIndex={10000}
           />
-          <ColorFilter
-            image={aboutImage}
-            alt="Ximena Ulibarri"
-            customStyles={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-            hover={false}
-          />
+          <img src={aboutImage} alt="Ximena Ulibarri" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
         </Grid>
         <Grid item xs={12} md={6}>
 
