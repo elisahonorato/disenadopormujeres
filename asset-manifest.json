@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b24e3786.css",
-    "main.js": "/static/js/main.b1054656.js",
+    "main.js": "/static/js/main.70f9b271.js",
     "static/js/787.003e9379.chunk.js": "/static/js/787.003e9379.chunk.js",
     "static/media/PostalesDpM.pdf": "/static/media/PostalesDpM.cb76f21d36a43c6ed7a7.pdf",
     "static/media/about_2023.mp4": "/static/media/about_2023.8343dd6d3c31176db7cf.mp4",
@@ -13,6 +13,7 @@
     "static/media/memoria_embotelladora_andina_2006_libro.jpg": "/static/media/memoria_embotelladora_andina_2006_libro.d35280c310bbb8bea320.jpg",
     "static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.jpg": "/static/media/rutas_culturales_tierra_del_fuego_2010-2011_sistema-comunicacion-visual.d43d95596159b97e86f1.jpg",
     "static/media/taller_ximena_ulibarri_encargo_interdesign_2015_foto.jpg": "/static/media/taller_ximena_ulibarri_encargo_interdesign_2015_foto.edd4811aac025f4b237e.jpg",
+    "static/media/contact.jpg": "/static/media/contact.fea1bbc8ea56538f82b7.jpg",
     "static/media/quinta_bienal_de_diseño_2013_grafica.jpg": "/static/media/quinta_bienal_de_diseño_2013_grafica.94e27da4042631baf75e.jpg",
     "static/media/la_lengua_en_pedazos_2015_afiches.jpg": "/static/media/la_lengua_en_pedazos_2015_afiches.bce7cb34c6441091bd4e.jpg",
     "static/media/revista_universitaria_cd_2006_revista-a.jpg": "/static/media/revista_universitaria_cd_2006_revista-a.d849a45ae7ef59ccf21f.jpg",
@@ -102,11 +103,11 @@
     "static/media/icono-01.png": "/static/media/icono-01.b8fdfd5279956c74073d.png",
     "index.html": "/index.html",
     "main.b24e3786.css.map": "/static/css/main.b24e3786.css.map",
-    "main.b1054656.js.map": "/static/js/main.b1054656.js.map",
+    "main.70f9b271.js.map": "/static/js/main.70f9b271.js.map",
     "787.003e9379.chunk.js.map": "/static/js/787.003e9379.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b24e3786.css",
-    "static/js/main.b1054656.js"
+    "static/js/main.70f9b271.js"
   ]
 }
